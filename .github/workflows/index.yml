@@ -1,0 +1,40 @@
+# Раз в час догоняет сеть и публикует свежий data/provider_index.json в репозиторий.
+# Сырые события (events.jsonl) живут в кэше Actions, в git попадает только индекс.
+name: refresh-provider-index
+on:
+  schedule: [{ cron: "17 * * * *" }]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: index, cancel-in-progress: false }
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Restore raw events
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/events.jsonl
+            data/state.json
+          key: events-${{ github.run_id }}
+          restore-keys: events-
+      - run: python indexer.py
+      - name: Save raw events
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            data/events.jsonl
+            data/state.json
+          key: events-${{ github.run_id }}
+      - name: Commit index
+        run: |
+          git config user.name "provider-index-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/provider_index.json
+          git diff --cached --quiet || git commit -m "index: $(date -u +%FT%TZ)"
+          git push
