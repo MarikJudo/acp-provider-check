@@ -1,0 +1,5 @@
+data/events.jsonl
+data/state.json
+data_sync.log
+__pycache__/
+node_modules/
