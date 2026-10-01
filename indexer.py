@@ -107,7 +107,7 @@ def build():
     for jid, j in jobs.items():
         p = j.get("provider")
         if not p or p == zero or "created" not in j: continue
-        s = P.setdefault(p, dict(received=0, budget_set=0, funded=0, funded_usdc=0.0, submitted=0, paid=0, paid_usdc=0.0,
+        s = P.setdefault(p, dict(received=0, budget_set=0, funded=0, funded_usdc=0.0, submitted=0, delivered=0, accepted_never=0, paid=0, paid_usdc=0.0,
                                  rejected=0, expired=0, refunded_usdc=0.0, received_30d=0, budget_set_30d=0, paid_30d=0,
                                  paid_7d=0, first_job=None, last_job=None, last_paid=None, _clients={}, _self=0.0))
         s["received"] += 1
@@ -121,7 +121,11 @@ def build():
             s["funded"] += 1; s["funded_usdc"] += j["funded"]
             c = j["client"]; s["_clients"][c] = s["_clients"].get(c, 0) + j["funded"]
             if c == p: s["_self"] += j["funded"]
-        if "submitted" in j: s["submitted"] += 1
+        if "submitted" in j:
+            s["submitted"] += 1
+            if j.get("funded"):
+                s["delivered"] += 1                         # оплаченная работа сдана провайдером
+                if not j.get("paid") and not j.get("rejected"): s["accepted_never"] += 1  # клиент не принял -> возврат
         if j.get("paid"):
             s["paid"] += 1; s["paid_usdc"] += j["paid"]; s["last_paid"] = max(s["last_paid"] or 0, j["paid_at"])
             if j["paid_at"] >= d30: s["paid_30d"] += 1
@@ -142,6 +146,10 @@ def build():
             first_job=ts(s["first_job"]), last_job=ts(s["last_job"]), last_paid=ts(s["last_paid"]) if s["last_paid"] else None,
         )
         out[p] = s
+    # Кольца: A — главный клиент B, а B — главный клиент A (платят друг другу).
+    for p, s in out.items():
+        c = s["top_client"]
+        s["ring_with"] = c if c in out and out[c]["top_client"] == p and s["top_client_share"] >= 0.5 else None
     json.dump({"generated_at": head_ts, "head_block": head, "contract": ACP, "providers": out},
               open(INDEX, "w", encoding="utf-8"), separators=(",", ":"))
     print(f"index: {len(out)} providers, {len(jobs)} jobs -> {INDEX} ({os.path.getsize(INDEX)//1024} KB)")

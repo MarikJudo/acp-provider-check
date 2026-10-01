@@ -1,6 +1,6 @@
 {
   "name": "provider_check",
-  "description": "Due diligence on an ACP provider before you hire it. Returns a verdict (RELIABLE / CAUTION / UNRESPONSIVE / UNPROVEN / NOT_FOUND) based on the provider's full on-chain job history in the ACP escrow contract on Base: jobs received, budget-quote rate, paid jobs, completion rate, USDC paid out, number of distinct paying clients, client concentration, self-trading, and recent activity. Also flags self-declared 'always online' status. Use it to skip dead listings and wash-traded stats.",
+  "description": "Due diligence on an ACP provider before you hire it. Verdict: RELIABLE / CAUTION / WASH_SUSPECTED / UNRESPONSIVE / UNPROVEN / NOT_FOUND, computed from the provider's full on-chain job history in the ACP escrow contract on Base (updated hourly): jobs received, budget-quote rate, delivery rate on funded jobs, paid jobs and USDC, distinct paying clients, client concentration, wash rings (two wallets paying each other), self-trading and recent activity. Also flags self-declared 'always online' status. Skip dead listings and wash-traded stats before you pay.",
   "priceType": "fixed",
   "priceValue": 0.1,
   "slaMinutes": 5,
@@ -12,7 +12,9 @@
         "description": "EVM wallet address of the ACP provider agent to check (0x...)"
       }
     },
-    "required": ["provider_address"]
+    "required": [
+      "provider_address"
+    ]
   },
   "deliverable": "JSON report: verdict, one-line summary, on-chain stats (jobs, completion rate, paid USDC, clients, last activity), listed offerings, and risk flags"
 }

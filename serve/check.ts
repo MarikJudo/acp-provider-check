@@ -9,6 +9,7 @@ const DAY = 86400;
 
 type Stats = {
   received: number; budget_set: number; funded: number; funded_usdc: number; submitted: number;
+  delivered: number; accepted_never: number; ring_with: string | null;
   paid: number; paid_usdc: number; rejected: number; expired: number; refunded_usdc: number;
   received_30d: number; budget_set_30d: number; paid_30d: number; paid_7d: number;
   first_job: number; last_job: number; last_paid: number | null;
@@ -16,7 +17,7 @@ type Stats = {
 };
 type Index = { generated_at: number; head_block: number; providers: Record<string, Stats> };
 
-export type Verdict = "RELIABLE" | "CAUTION" | "UNRESPONSIVE" | "UNPROVEN" | "NOT_FOUND";
+export type Verdict = "RELIABLE" | "CAUTION" | "WASH_SUSPECTED" | "UNRESPONSIVE" | "UNPROVEN" | "NOT_FOUND";
 
 let cache: { at: number; data: Index } | null = null;
 async function loadIndex(): Promise<Index> {
@@ -67,30 +68,40 @@ export async function checkProvider(rawAddress: unknown) {
 
   // --- ончейн-метрики ---
   const budgetRate = s.received ? s.budget_set / s.received : 0;        // отвечает ли на заказы вообще
-  const completionRate = s.funded ? s.paid / s.funded : 0;              // доводит ли оплаченные до выплаты
+  const deliveryRate = s.funded ? s.delivered / s.funded : 0;           // сдаёт ли работу, за которую заплатили
+  const paidRate = s.funded ? s.paid / s.funded : 0;                    // дошло ли до выплаты (зависит и от клиента)
   const recentBudgetRate = s.received_30d ? s.budget_set_30d / s.received_30d : null;
 
+  if (s.ring_with) flags.push(`wash ring: this provider and ${s.ring_with} are each other's main client — they pay each other`);
   if (s.self_trade_usdc > 0) flags.push(`self-trading: ${s.self_trade_usdc} USDC funded by its own wallet`);
-  if (s.paid >= 5 && s.top_client_share >= 0.8)
+  if (s.paid >= 5 && s.top_client_share >= 0.8 && !s.ring_with)
     flags.push(`${pct(s.top_client_share)}% of funded volume comes from one client (${s.top_client}) — stats may be inflated`);
-  if (s.funded >= 5 && completionRate < 0.7) flags.push(`only ${pct(completionRate)}% of funded jobs were paid out`);
-  if (s.rejected > 0) flags.push(`${s.rejected} job(s) rejected`);
+  if (s.funded >= 5 && deliveryRate < 0.8) flags.push(`delivered only ${pct(deliveryRate)}% of funded jobs`);
+  if (s.accepted_never >= 5)
+    flags.push(`${s.accepted_never} delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)`);
+  if (s.rejected > 0) flags.push(`${s.rejected} delivered job(s) rejected by clients`);
 
+  const stats = `${s.paid} paid job(s) from ${s.unique_clients} client(s), delivered ${pct(deliveryRate)}% of funded jobs`;
   let verdict: Verdict;
   let summary: string;
-  if (s.received_30d >= 2 && (recentBudgetRate ?? 0) < 0.3 && s.paid_30d === 0) {
+  if (s.ring_with || s.self_trade_usdc > 0) {
+    verdict = "WASH_SUSPECTED";
+    summary = `${stats}, but its volume is circular (see flags) — the numbers do not reflect real demand.`;
+  } else if (s.paid === 0 && s.budget_set === 0) {
+    verdict = "UNRESPONSIVE";
+    summary = `Received ${s.received} job(s) and never quoted a budget on any of them.`;
+  } else if (s.received_30d >= 2 && (recentBudgetRate ?? 0) < 0.3 && s.paid_30d === 0) {
     verdict = "UNRESPONSIVE";
     summary = `Received ${s.received_30d} job(s) in the last 30 days but quoted a budget on ${pct(recentBudgetRate ?? 0)}% and completed none.`;
   } else if (s.paid === 0) {
     verdict = "UNPROVEN";
-    summary = "Has received jobs but never been paid on-chain.";
-  } else if (s.paid >= 10 && s.unique_clients >= 3 && completionRate >= 0.8 && s.paid_7d > 0 && flags.length === 0) {
+    summary = "Responds to jobs but has never been paid on-chain.";
+  } else if (s.paid >= 10 && s.unique_clients >= 3 && deliveryRate >= 0.9 && s.top_client_share < 0.8 && s.paid_7d > 0) {
     verdict = "RELIABLE";
-    summary = `${s.paid} paid jobs from ${s.unique_clients} clients, ${pct(completionRate)}% completion, active in the last 7 days.`;
+    summary = `${stats}, paid in the last 7 days.`;
   } else {
     verdict = "CAUTION";
-    summary = `${s.paid} paid job(s) from ${s.unique_clients} client(s), ${pct(completionRate)}% completion` +
-      (s.paid_7d ? "" : ", no payouts in the last 7 days") + (flags.length ? "; see flags." : ".");
+    summary = stats + (s.paid_7d ? "" : ", no payouts in the last 7 days") + (flags.length ? "; see flags." : ".");
   }
 
   return {
@@ -103,8 +114,10 @@ export async function checkProvider(rawAddress: unknown) {
       jobs_received: s.received,
       budget_quoted_rate: pct(budgetRate),
       jobs_funded: s.funded,
+      jobs_delivered: s.delivered,
+      delivery_rate: pct(deliveryRate),
       jobs_paid: s.paid,
-      completion_rate: pct(completionRate),
+      paid_rate: pct(paidRate),
       paid_usdc: s.paid_usdc,
       refunded_usdc: s.refunded_usdc,
       unique_paying_clients: s.unique_clients,
