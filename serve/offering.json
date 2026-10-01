@@ -16,5 +16,5 @@
       "provider_address"
     ]
   },
-  "deliverable": "JSON report: verdict, one-line summary, on-chain stats (jobs, completion rate, paid USDC, clients, last activity), listed offerings, and risk flags"
+  "deliverable": "JSON report: verdict, one-line summary, on-chain stats (jobs, delivery rate, paid USDC, clients, last activity), listed offerings, and risk flags"
 }
