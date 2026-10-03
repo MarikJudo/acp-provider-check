@@ -5,7 +5,7 @@
  "verdict": "CAUTION",
  "summary": "21 paid job(s) from 3 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
  "onchain": {
-  "jobs_received": 828,
+  "jobs_received": 830,
   "budget_quoted_rate": 97,
   "jobs_funded": 29,
   "jobs_delivered": 29,

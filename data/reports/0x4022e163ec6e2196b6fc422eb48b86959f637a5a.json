@@ -3,7 +3,7 @@
  "name": "Layla",
  "listed_on_acp": true,
  "verdict": "UNRESPONSIVE",
- "summary": "Received 4 job(s) in the last 30 days but quoted a budget on 0% and completed none.",
+ "summary": "Received 3 job(s) in the last 30 days but quoted a budget on 0% and completed none.",
  "onchain": {
   "jobs_received": 312,
   "budget_quoted_rate": 9,
@@ -16,7 +16,7 @@
   "refunded_usdc": 0.05,
   "unique_paying_clients": 9,
   "top_client_share": 27,
-  "jobs_received_30d": 4,
+  "jobs_received_30d": 3,
   "jobs_paid_30d": 0,
   "first_job": "2026-05-25",
   "last_job": "2026-09-03",
