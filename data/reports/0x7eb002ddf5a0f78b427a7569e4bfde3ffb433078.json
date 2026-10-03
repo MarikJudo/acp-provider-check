@@ -1,0 +1,232 @@
+{
+ "provider_address": "0x7eb002ddf5a0f78b427a7569e4bfde3ffb433078",
+ "name": "NuSHA",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "162 paid job(s) from 1 client(s), delivered 84% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 193,
+  "budget_quoted_rate": 99,
+  "jobs_funded": 192,
+  "jobs_delivered": 162,
+  "delivery_rate": 84,
+  "jobs_paid": 162,
+  "paid_rate": 84,
+  "paid_usdc": 2.529,
+  "refunded_usdc": 2.525,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 193,
+  "jobs_paid_30d": 162,
+  "first_job": "2026-09-06",
+  "last_job": "2026-09-07",
+  "last_paid": "2026-09-07"
+ },
+ "offerings": [
+  {
+   "name": "venice_image_venice_sd35",
+   "price_usdc": 0.01,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_grok_imagine_image_quality_2k",
+   "price_usdc": 0.09,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_nano_banana_pro_2k",
+   "price_usdc": 0.23,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_nano_banana_2_2k",
+   "price_usdc": 0.15,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_flux_2_max",
+   "price_usdc": 0.09,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_embeddings",
+   "price_usdc": 0.01,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_gpt_image_2_1k",
+   "price_usdc": 0.27,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_krea_2_turbo_1k",
+   "price_usdc": 0.04,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_hunyuan_image_v3",
+   "price_usdc": 0.09,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_krea_v2_medium",
+   "price_usdc": 0.04,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_recraft_v4",
+   "price_usdc": 0.05,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_seedream_v5_lite",
+   "price_usdc": 0.05,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_muse_image",
+   "price_usdc": 0.02,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_ideogram_v4",
+   "price_usdc": 0.06,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_nano_banana_2_lite",
+   "price_usdc": 0.06,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_tts",
+   "price_usdc": 0.01,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_imagineart_1.5_pro",
+   "price_usdc": 0.06,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_flux_2_pro",
+   "price_usdc": 0.03,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "venice_image_nano_banana_pro_4k",
+   "price_usdc": 0.35,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_gpt_image_2_2k",
+   "price_usdc": 0.51,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_krea_2_turbo_2k",
+   "price_usdc": 0.06,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_grok_imagine_image_2_0_1k",
+   "price_usdc": 0.08,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_seedream_v4",
+   "price_usdc": 0.05,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_recraft_v4_pro",
+   "price_usdc": 0.29,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_luma_uni_1_max",
+   "price_usdc": 0.12,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_qwen_image_2",
+   "price_usdc": 0.05,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_krea_v2_large",
+   "price_usdc": 0.08,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_seedream_v5_pro_1k",
+   "price_usdc": 0.06,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_qwen_image_2_pro",
+   "price_usdc": 0.1,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_nano_banana_2_4k",
+   "price_usdc": 0.19,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_luma_uni_1",
+   "price_usdc": 0.05,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_gpt_image_2_4k",
+   "price_usdc": 0.84,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_gpt_image_1_5",
+   "price_usdc": 0.26,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_chat",
+   "price_usdc": 0.01,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_nano_banana_pro_1k",
+   "price_usdc": 0.18,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_grok_imagine_image_quality_1k",
+   "price_usdc": 0.06,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_seedream_v5_pro_2k",
+   "price_usdc": 0.11,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_nano_banana_2_1k",
+   "price_usdc": 0.1,
+   "sla_min": 10
+  },
+  {
+   "name": "venice_image_grok_imagine_image_2_0_2k",
+   "price_usdc": 0.1,
+   "sla_min": 10
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "100% of funded volume comes from one client (0x35607395a802844d9aa5ce5d5f802c6d2b532ab0) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

@@ -1,0 +1,64 @@
+{
+ "provider_address": "0xa9667116b4f4e9f1bae85f93a21b4b8ea45de98f",
+ "name": "Whitepaper Grey",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "100 paid job(s) from 3 client(s), delivered 80% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 388,
+  "budget_quoted_rate": 51,
+  "jobs_funded": 158,
+  "jobs_delivered": 127,
+  "delivery_rate": 80,
+  "jobs_paid": 100,
+  "paid_rate": 63,
+  "paid_usdc": 7.758,
+  "refunded_usdc": 21.35,
+  "unique_paying_clients": 3,
+  "top_client_share": 92,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-21",
+  "last_job": "2026-07-25",
+  "last_paid": "2026-07-25"
+ },
+ "offerings": [
+  {
+   "name": "claim_extraction",
+   "price_usdc": 0.75,
+   "sla_min": 10
+  },
+  {
+   "name": "verify_whitepaper",
+   "price_usdc": 1.5,
+   "sla_min": 10
+  },
+  {
+   "name": "verify_full_tech",
+   "price_usdc": 3,
+   "sla_min": 15
+  },
+  {
+   "name": "quick_protocol_facts",
+   "price_usdc": 0.3,
+   "sla_min": 5
+  },
+  {
+   "name": "claim_history",
+   "price_usdc": 0.25,
+   "sla_min": 5
+  },
+  {
+   "name": "legitimacy_scan",
+   "price_usdc": 0.25,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "92% of funded volume comes from one client (0x22a37c576f7c7ed7755a2673b56130b773dc56a6) — stats may be inflated",
+  "21 delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)",
+  "105 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

@@ -1,0 +1,30 @@
+{
+ "provider_address": "0x654ce91c51c2a94dbc2bcf785018cd0021ab66f1",
+ "name": "DataPort Arena",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "5 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 5,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 5,
+  "jobs_delivered": 5,
+  "delivery_rate": 100,
+  "jobs_paid": 5,
+  "paid_rate": 100,
+  "paid_usdc": 0.45,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-04",
+  "last_job": "2026-07-04",
+  "last_paid": "2026-07-04"
+ },
+ "offerings": [],
+ "flags": [
+  "100% of funded volume comes from one client (0x72e1a2a350d9640d9d9abceece32713a781923b5) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

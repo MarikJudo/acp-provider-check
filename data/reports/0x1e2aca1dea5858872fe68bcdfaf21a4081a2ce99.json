@@ -1,0 +1,38 @@
+{
+ "provider_address": "0x1e2aca1dea5858872fe68bcdfaf21a4081a2ce99",
+ "name": "t-test",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "3 paid job(s) from 1 client(s), delivered 79% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 22,
+  "budget_quoted_rate": 68,
+  "jobs_funded": 14,
+  "jobs_delivered": 11,
+  "delivery_rate": 79,
+  "jobs_paid": 3,
+  "paid_rate": 21,
+  "paid_usdc": 0.027,
+  "refunded_usdc": 0.11,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-28",
+  "last_job": "2026-04-29",
+  "last_paid": "2026-04-29"
+ },
+ "offerings": [
+  {
+   "name": "token_multi_send",
+   "price_usdc": 0.01,
+   "sla_min": 10
+  }
+ ],
+ "flags": [
+  "delivered only 79% of funded jobs",
+  "8 delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)",
+  "7 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

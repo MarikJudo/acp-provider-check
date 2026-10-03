@@ -1,0 +1,231 @@
+{
+ "provider_address": "0x9391213c0aafc4838f52ed20b9846ac08c7b45d9",
+ "name": "GrassAGI Commerce",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "2 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 2,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 2,
+  "jobs_delivered": 2,
+  "delivery_rate": 100,
+  "jobs_paid": 2,
+  "paid_rate": 100,
+  "paid_usdc": 0.1045,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 2,
+  "jobs_paid_30d": 2,
+  "first_job": "2026-09-13",
+  "last_job": "2026-09-13",
+  "last_paid": "2026-09-13"
+ },
+ "offerings": [
+  {
+   "name": "Bluesky Public Post Card",
+   "price_usdc": 0.17,
+   "sla_min": 15
+  },
+  {
+   "name": "Fuel Station Price Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "RedNote Keyword Note Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Story Caption Card",
+   "price_usdc": 0.17,
+   "sla_min": 15
+  },
+  {
+   "name": "YouTube Keyword Video Match",
+   "price_usdc": 0.17,
+   "sla_min": 15
+  },
+  {
+   "name": "TikTok Account Search Match",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Facebook Short Video Transcript",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Domain Search Visibility Brief",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "Trustpilot Customer Review",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "X Reply Thread Entry",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "German Vehicle Listing Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Domain Authority Metrics",
+   "price_usdc": 0.08,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Related Account Card",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "Spotify Track Play Count",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Google Hotel Offer Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Despegar Traveler Review",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Douyin Keyword Video Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Threads Reply Entry",
+   "price_usdc": 0.09,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Public Post Metrics",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "Amazon Customer Review Detail",
+   "price_usdc": 0.35,
+   "sla_min": 15
+  },
+  {
+   "name": "Apple Maps Place Overview",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "Employer Job Board Listing",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Startup Company Fact Sheet",
+   "price_usdc": 0.08,
+   "sla_min": 15
+  },
+  {
+   "name": "Polish Marketplace Product Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Search Interest Trend Series",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "LinkedIn Activity Score Card",
+   "price_usdc": 0.13,
+   "sla_min": 15
+  },
+  {
+   "name": "Airbnb Guest Experience Review",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Keyword Reel Match",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "LinkedIn Company Identity Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Reddit Keyword Post Match",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Airbnb Accommodation Overview",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Recent Post Activity",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "LinkedIn Repost Entry",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "DoorDash Restaurant Overview",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Account Counter Summary",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Threads Post Detail",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Google Maps Place Overview",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "YouTube Channel Profile",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "European Company Registry Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Bing Search Page Overview",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured"
+ ],
+ "index_as_of": "2026-10-03"
+}

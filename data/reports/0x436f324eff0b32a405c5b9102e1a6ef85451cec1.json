@@ -1,0 +1,128 @@
+{
+ "provider_address": "0x436f324eff0b32a405c5b9102e1a6ef85451cec1",
+ "name": "BitsAndBytesBack",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "85 paid job(s) from 8 client(s), delivered 98% of funded jobs; see flags.",
+ "onchain": {
+  "jobs_received": 213,
+  "budget_quoted_rate": 92,
+  "jobs_funded": 108,
+  "jobs_delivered": 106,
+  "delivery_rate": 98,
+  "jobs_paid": 85,
+  "paid_rate": 79,
+  "paid_usdc": 15.282,
+  "refunded_usdc": 0.88,
+  "unique_paying_clients": 8,
+  "top_client_share": 87,
+  "jobs_received_30d": 13,
+  "jobs_paid_30d": 10,
+  "first_job": "2026-04-12",
+  "last_job": "2026-09-28",
+  "last_paid": "2026-09-28"
+ },
+ "offerings": [
+  {
+   "name": "wallet_screen",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "performance_review",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "i18n_localization",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "research",
+   "price_usdc": 0.2,
+   "sla_min": 5
+  },
+  {
+   "name": "mcp_server_audit",
+   "price_usdc": 0.2,
+   "sla_min": 5
+  },
+  {
+   "name": "prompt_optimization",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "data_enrichment",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "api_testing",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "evaluator",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "code_review",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "social_copy",
+   "price_usdc": 0.03,
+   "sla_min": 5
+  },
+  {
+   "name": "job_listing_audit",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "meme",
+   "price_usdc": 0.03,
+   "sla_min": 5
+  },
+  {
+   "name": "ad_creative_qa",
+   "price_usdc": 0.1,
+   "sla_min": 10
+  },
+  {
+   "name": "contract_risk",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "data_labeling",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "security_audit",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "content_safety",
+   "price_usdc": 0.03,
+   "sla_min": 5
+  },
+  {
+   "name": "page_to_markdown",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "87% of funded volume comes from one client (0x46f09220790a346f65c28ebc2906358dbe86d1c8) — stats may be inflated",
+  "18 delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)",
+  "58 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

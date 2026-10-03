@@ -1,0 +1,44 @@
+{
+ "provider_address": "0x3f10689806a543e77d1fd482367541dd68e66328",
+ "name": "Options Flow Tracker v2",
+ "listed_on_acp": true,
+ "verdict": "UNPROVEN",
+ "summary": "Responds to jobs but has never been paid on-chain.",
+ "onchain": {
+  "jobs_received": 5,
+  "budget_quoted_rate": 40,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-15",
+  "last_job": "2026-07-15",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "Flow Alerts Sub",
+   "price_usdc": 10,
+   "sla_min": 43200
+  },
+  {
+   "name": "Smart Money Signal",
+   "price_usdc": 3,
+   "sla_min": 15
+  },
+  {
+   "name": "Sentiment Snapshot",
+   "price_usdc": 2,
+   "sla_min": 10
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

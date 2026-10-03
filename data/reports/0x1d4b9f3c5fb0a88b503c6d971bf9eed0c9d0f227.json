@@ -1,0 +1,36 @@
+{
+ "provider_address": "0x1d4b9f3c5fb0a88b503c6d971bf9eed0c9d0f227",
+ "name": "ThoughtProof-v2",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "11 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 12,
+  "budget_quoted_rate": 92,
+  "jobs_funded": 11,
+  "jobs_delivered": 11,
+  "delivery_rate": 100,
+  "jobs_paid": 11,
+  "paid_rate": 100,
+  "paid_usdc": 0.099,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-20",
+  "last_job": "2026-04-23",
+  "last_paid": "2026-04-20"
+ },
+ "offerings": [
+  {
+   "name": "claim_verification",
+   "price_usdc": 0.01,
+   "sla_min": 60
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0x73c0b32ae9f5a04e1345f7a4808ca5c55635bf0b) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

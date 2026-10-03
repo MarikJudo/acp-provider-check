@@ -1,0 +1,37 @@
+{
+ "provider_address": "0x6be0c83c41b0cfc08bccef79d9c3df9f200c1364",
+ "name": "Relay Provider",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "8 paid job(s) from 1 client(s), delivered 32% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 25,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 25,
+  "jobs_delivered": 8,
+  "delivery_rate": 32,
+  "jobs_paid": 8,
+  "paid_rate": 32,
+  "paid_usdc": 0.072,
+  "refunded_usdc": 0.17,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 25,
+  "jobs_paid_30d": 8,
+  "first_job": "2026-09-10",
+  "last_job": "2026-09-14",
+  "last_paid": "2026-09-14"
+ },
+ "offerings": [
+  {
+   "name": "release_verification",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0x53c7488f8f7748964260ae1b95ab37c9e805acf0) — stats may be inflated",
+  "delivered only 32% of funded jobs"
+ ],
+ "index_as_of": "2026-10-03"
+}

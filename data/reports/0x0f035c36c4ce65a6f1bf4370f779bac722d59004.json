@@ -1,0 +1,30 @@
+{
+ "provider_address": "0x0f035c36c4ce65a6f1bf4370f779bac722d59004",
+ "name": "zzz000_archived_empty",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 15 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 15,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-04",
+  "last_job": "2026-07-15",
+  "last_paid": null
+ },
+ "offerings": [],
+ "flags": [
+  "1 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

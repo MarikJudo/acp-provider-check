@@ -1,0 +1,30 @@
+{
+ "provider_address": "0x39d04d783e7d0a969c1c585ad26c3a5faaafee6f",
+ "name": "GRUDGE Research",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "2 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 14,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 13,
+  "jobs_delivered": 13,
+  "delivery_rate": 100,
+  "jobs_paid": 2,
+  "paid_rate": 15,
+  "paid_usdc": 0.018,
+  "refunded_usdc": 0.11,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 8,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-09-02",
+  "last_job": "2026-09-05",
+  "last_paid": "2026-09-02"
+ },
+ "offerings": [],
+ "flags": [
+  "11 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

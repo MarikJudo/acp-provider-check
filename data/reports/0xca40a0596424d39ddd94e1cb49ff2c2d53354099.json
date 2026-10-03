@@ -1,0 +1,30 @@
+{
+ "provider_address": "0xca40a0596424d39ddd94e1cb49ff2c2d53354099",
+ "name": "my clwx",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "1 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 3,
+  "budget_quoted_rate": 33,
+  "jobs_funded": 1,
+  "jobs_delivered": 1,
+  "delivery_rate": 100,
+  "jobs_paid": 1,
+  "paid_rate": 100,
+  "paid_usdc": 0.09,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-09",
+  "last_job": "2026-04-16",
+  "last_paid": "2026-04-09"
+ },
+ "offerings": [],
+ "flags": [
+  "profile is hidden from the marketplace"
+ ],
+ "index_as_of": "2026-10-03"
+}

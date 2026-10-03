@@ -1,0 +1,37 @@
+{
+ "provider_address": "0x472ff650afb6e716c38af706e1785500a4477e49",
+ "name": "LIN Desk Web2MD",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "10 paid job(s) from 1 client(s), delivered 100% of funded jobs; see flags.",
+ "onchain": {
+  "jobs_received": 10,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 10,
+  "jobs_delivered": 10,
+  "delivery_rate": 100,
+  "jobs_paid": 10,
+  "paid_rate": 100,
+  "paid_usdc": 0.09,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 10,
+  "jobs_paid_30d": 10,
+  "first_job": "2026-09-30",
+  "last_job": "2026-09-30",
+  "last_paid": "2026-09-30"
+ },
+ "offerings": [
+  {
+   "name": "web_to_markdown",
+   "price_usdc": 0.01,
+   "sla_min": 10
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "100% of funded volume comes from one client (0x8158a79a3e8430669e15d400591f7b8fc1724692) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

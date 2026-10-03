@@ -1,0 +1,36 @@
+{
+ "provider_address": "0x8031ed08790b19d51af8ec405315ab0c401c88d5",
+ "name": "ExecutionProof",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "10 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 13,
+  "budget_quoted_rate": 92,
+  "jobs_funded": 11,
+  "jobs_delivered": 11,
+  "delivery_rate": 100,
+  "jobs_paid": 10,
+  "paid_rate": 91,
+  "paid_usdc": 0.09,
+  "refunded_usdc": 0.01,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 13,
+  "jobs_paid_30d": 10,
+  "first_job": "2026-09-04",
+  "last_job": "2026-09-06",
+  "last_paid": "2026-09-06"
+ },
+ "offerings": [
+  {
+   "name": "verifySwapExecution",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0x3ef43ccd7352b09f6278c79a803486effb4c1c8c) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

@@ -5,7 +5,8 @@
 #
 #   python indexer.py            # догнать сеть и пересобрать индекс
 #   python indexer.py --rebuild  # только пересобрать индекс из уже скачанных событий
-import json, os, sys, time, urllib.request, threading
+#   python indexer.py --save-seed # обновить сжатую копию событий в data/seed (коммитится в git изредка)
+import gzip, json, os, shutil, sys, time, urllib.request, threading
 from concurrent.futures import ThreadPoolExecutor
 
 D = os.path.dirname(os.path.abspath(__file__))
@@ -15,26 +16,27 @@ RPC = os.environ.get("BASE_RPC", "https://mainnet.base.org")
 ACP = "0x238E541BfefD82238730D00a2208E5497F1832E0"
 DEPLOY_BLOCK = 44427013
 STEP = 2000            # лимит getLogs публичного RPC
-WORKERS = 8
+WORKERS = int(os.environ.get("INDEX_WORKERS", "8"))
 DATA = os.path.join(D, "data")
 EVENTS = os.path.join(DATA, "events.jsonl")
 STATE = os.path.join(DATA, "state.json")
 INDEX = os.path.join(DATA, "provider_index.json")
+SEED = os.path.join(DATA, "seed")   # сжатая копия событий в git: CI докачивает только хвост, а не всю историю
 
 abi = json.load(open(os.path.join(D, "abi.json"), encoding="utf-8"))["abi"]
 canon = lambda e: e["name"] + "(" + ",".join(i["type"] for i in e["inputs"]) + ")"
 TOPIC = {"0x" + keccak256(canon(e).encode()).hex(): e["name"] for e in abi if e.get("type") == "event"}
 
-def rpc(method, params, tries=10):
+def rpc(method, params, tries=12):
     for k in range(tries):
         try:
             req = urllib.request.Request(RPC, data=json.dumps({"jsonrpc": "2.0", "id": 1, "method": method, "params": params}).encode(),
                                          headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
             d = json.loads(urllib.request.urlopen(req, timeout=45).read())
-            if "error" in d: time.sleep(0.6 + 0.4 * k); continue
+            if "error" in d: time.sleep(min(2 ** k, 30)); continue
             return d["result"]
         except Exception:
-            time.sleep(0.6 + 0.4 * k)
+            time.sleep(min(2 ** k, 30))       # публичный RPC режет общие IP (GitHub) — ждём дольше
     raise RuntimeError(f"RPC failed: {method}")
 
 addr = lambda t: "0x" + t[-40:]
@@ -62,8 +64,22 @@ def fetch_range(a, z):
         if r: rows.append(r)
     return rows
 
+def restore_seed():
+    if os.path.exists(EVENTS) or not os.path.exists(os.path.join(SEED, "state.json")): return
+    with gzip.open(os.path.join(SEED, "events.jsonl.gz"), "rb") as src, open(EVENTS, "wb") as dst:
+        shutil.copyfileobj(src, dst)
+    shutil.copy(os.path.join(SEED, "state.json"), STATE)
+    print("restored events from seed")
+
+def save_seed():
+    os.makedirs(SEED, exist_ok=True)
+    with open(EVENTS, "rb") as src, gzip.open(os.path.join(SEED, "events.jsonl.gz"), "wb", 9) as dst:
+        shutil.copyfileobj(src, dst)
+    shutil.copy(STATE, os.path.join(SEED, "state.json"))
+
 def sync():
     os.makedirs(DATA, exist_ok=True)
+    restore_seed()
     start = json.load(open(STATE))["last_block"] + 1 if os.path.exists(STATE) else DEPLOY_BLOCK
     end = int(rpc("eth_blockNumber", []), 16) - 5   # небольшой запас от реорга
     if start > end: return
@@ -155,5 +171,6 @@ def build():
     print(f"index: {len(out)} providers, {len(jobs)} jobs -> {INDEX} ({os.path.getsize(INDEX)//1024} KB)")
 
 if __name__ == "__main__":
+    if "--save-seed" in sys.argv: save_seed(); sys.exit()
     if "--rebuild" not in sys.argv: sync()
     build()

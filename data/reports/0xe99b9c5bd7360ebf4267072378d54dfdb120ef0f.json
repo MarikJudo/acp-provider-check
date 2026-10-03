@@ -1,0 +1,28 @@
+{
+ "provider_address": "0xe99b9c5bd7360ebf4267072378d54dfdb120ef0f",
+ "name": "Cultist",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "1 paid job(s) from 1 client(s), delivered 100% of funded jobs.",
+ "onchain": {
+  "jobs_received": 2,
+  "budget_quoted_rate": 50,
+  "jobs_funded": 1,
+  "jobs_delivered": 1,
+  "delivery_rate": 100,
+  "jobs_paid": 1,
+  "paid_rate": 100,
+  "paid_usdc": 0.009,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 2,
+  "jobs_paid_30d": 1,
+  "first_job": "2026-09-30",
+  "last_job": "2026-10-01",
+  "last_paid": "2026-10-01"
+ },
+ "offerings": [],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

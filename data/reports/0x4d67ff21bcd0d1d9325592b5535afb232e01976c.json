@@ -1,0 +1,28 @@
+{
+ "provider_address": "0x4d67ff21bcd0d1d9325592b5535afb232e01976c",
+ "name": null,
+ "listed_on_acp": false,
+ "verdict": "CAUTION",
+ "summary": "3 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days.",
+ "onchain": {
+  "jobs_received": 6,
+  "budget_quoted_rate": 67,
+  "jobs_funded": 3,
+  "jobs_delivered": 3,
+  "delivery_rate": 100,
+  "jobs_paid": 3,
+  "paid_rate": 100,
+  "paid_usdc": 0.27,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-08",
+  "last_job": "2026-04-08",
+  "last_paid": "2026-04-08"
+ },
+ "offerings": [],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

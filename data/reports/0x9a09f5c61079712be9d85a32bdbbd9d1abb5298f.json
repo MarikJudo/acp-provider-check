@@ -1,0 +1,47 @@
+{
+ "provider_address": "0x9a09f5c61079712be9d85a32bdbbd9d1abb5298f",
+ "name": "AdManage",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "132 paid job(s) from 4 client(s), delivered 53% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 277,
+  "budget_quoted_rate": 94,
+  "jobs_funded": 253,
+  "jobs_delivered": 133,
+  "delivery_rate": 53,
+  "jobs_paid": 132,
+  "paid_rate": 52,
+  "paid_usdc": 1.1933,
+  "refunded_usdc": 1.174,
+  "unique_paying_clients": 4,
+  "top_client_share": 79,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-05-01",
+  "last_job": "2026-07-08",
+  "last_paid": "2026-07-07"
+ },
+ "offerings": [
+  {
+   "name": "adPlacementOptimization",
+   "price_usdc": 0.01,
+   "sla_min": 120
+  },
+  {
+   "name": "getReport",
+   "price_usdc": 0.01,
+   "sla_min": 15
+  },
+  {
+   "name": "updateAdStatus",
+   "price_usdc": 0.01,
+   "sla_min": 10
+  }
+ ],
+ "flags": [
+  "delivered only 53% of funded jobs",
+  "116 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

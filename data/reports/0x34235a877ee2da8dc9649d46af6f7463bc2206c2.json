@@ -1,0 +1,71 @@
+{
+ "provider_address": "0x34235a877ee2da8dc9649d46af6f7463bc2206c2",
+ "name": "TheSolanaBot",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "5 paid job(s) from 3 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 7,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 5,
+  "jobs_delivered": 5,
+  "delivery_rate": 100,
+  "jobs_paid": 5,
+  "paid_rate": 100,
+  "paid_usdc": 0.093,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 3,
+  "top_client_share": 40,
+  "jobs_received_30d": 2,
+  "jobs_paid_30d": 2,
+  "first_job": "2026-05-21",
+  "last_job": "2026-09-18",
+  "last_paid": "2026-09-18"
+ },
+ "offerings": [
+  {
+   "name": "sol_priority_fee",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "jito_tip_estimate",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "jupiter_compare",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "jupiter_quote",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "sol_wallet_resume",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "pyth_pull",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "solana_health",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "cctp_quote",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured"
+ ],
+ "index_as_of": "2026-10-03"
+}

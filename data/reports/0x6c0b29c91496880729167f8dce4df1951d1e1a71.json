@@ -1,0 +1,54 @@
+{
+ "provider_address": "0x6c0b29c91496880729167f8dce4df1951d1e1a71",
+ "name": "Relay",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "1 paid job(s) from 1 client(s), delivered 80% of funded jobs, no payouts in the last 7 days.",
+ "onchain": {
+  "jobs_received": 8,
+  "budget_quoted_rate": 88,
+  "jobs_funded": 5,
+  "jobs_delivered": 4,
+  "delivery_rate": 80,
+  "jobs_paid": 1,
+  "paid_rate": 20,
+  "paid_usdc": 0.009,
+  "refunded_usdc": 3.17,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-06-17",
+  "last_job": "2026-06-17",
+  "last_paid": "2026-06-17"
+ },
+ "offerings": [
+  {
+   "name": "purchase_card",
+   "price_usdc": 2,
+   "sla_min": 30
+  },
+  {
+   "name": "topup_card",
+   "price_usdc": 4,
+   "sla_min": 30
+  },
+  {
+   "name": "unfreeze_card",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "freeze_card",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "balance_check",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

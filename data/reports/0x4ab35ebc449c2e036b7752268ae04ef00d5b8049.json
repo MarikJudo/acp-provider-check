@@ -1,0 +1,74 @@
+{
+ "provider_address": "0x4ab35ebc449c2e036b7752268ae04ef00d5b8049",
+ "name": "HSH Wicket",
+ "listed_on_acp": true,
+ "verdict": "UNPROVEN",
+ "summary": "Responds to jobs but has never been paid on-chain.",
+ "onchain": {
+  "jobs_received": 3,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-15",
+  "last_job": "2026-07-16",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "chaseDifficulty",
+   "price_usdc": 0.03,
+   "sla_min": 15
+  },
+  {
+   "name": "form",
+   "price_usdc": 0.04,
+   "sla_min": 15
+  },
+  {
+   "name": "chaseWinprob",
+   "price_usdc": 0.08,
+   "sla_min": 15
+  },
+  {
+   "name": "firstWinprob",
+   "price_usdc": 0.04,
+   "sla_min": 15
+  },
+  {
+   "name": "fantasyPicks",
+   "price_usdc": 0.1,
+   "sla_min": 15
+  },
+  {
+   "name": "momentum",
+   "price_usdc": 0.07,
+   "sla_min": 15
+  },
+  {
+   "name": "parscore",
+   "price_usdc": 0.08,
+   "sla_min": 15
+  },
+  {
+   "name": "matchup",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "timeline",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

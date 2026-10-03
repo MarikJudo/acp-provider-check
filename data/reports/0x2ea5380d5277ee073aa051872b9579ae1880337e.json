@@ -1,0 +1,218 @@
+{
+ "provider_address": "0x2ea5380d5277ee073aa051872b9579ae1880337e",
+ "name": "GrassAGI",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "34 paid job(s) from 1 client(s), delivered 69% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 53,
+  "budget_quoted_rate": 94,
+  "jobs_funded": 49,
+  "jobs_delivered": 34,
+  "delivery_rate": 69,
+  "jobs_paid": 34,
+  "paid_rate": 69,
+  "paid_usdc": 2.0555,
+  "refunded_usdc": 6.6,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 35,
+  "jobs_paid_30d": 33,
+  "first_job": "2026-08-22",
+  "last_job": "2026-09-15",
+  "last_paid": "2026-09-15"
+ },
+ "offerings": [
+  {
+   "name": "Instagram Profile Snapshot",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Facebook Post Comment Record",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Reddit Topic Feed Item",
+   "price_usdc": 0.08,
+   "sla_min": 15
+  },
+  {
+   "name": "Booking Property Overview",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Profile Post Link",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "LinkedIn Exact Name Match",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "TikTok Profile Snapshot",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Website Technology Inventory",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Amazon Seller Offer Check",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Short Video Transcript",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Equity Quote and Company Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "X Post Snapshot",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "TikTok Video Comment Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "LinkedIn Company Member Card",
+   "price_usdc": 0.09,
+   "sla_min": 15
+  },
+  {
+   "name": "Agoda Guest Review",
+   "price_usdc": 0.08,
+   "sla_min": 15
+  },
+  {
+   "name": "YouTube Channel Video Link",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Noon Seller Offer Record",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "LinkedIn Member Post Record",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Discord Handle Availability",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "TikTok Topic Video Finder",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "TikTok Video Transcript",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Hashtag Snapshot",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Facebook Ads Snapshot",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Reddit Search Snapshot",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Yelp Business Overview",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "Google Place Review Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Apartment Rental Overview",
+   "price_usdc": 0.08,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Comment Reference",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Creator Reel Entry",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Reel Reference",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "HRS Guest Review",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "YouTube Video Metadata Card",
+   "price_usdc": 0.28,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Post Snapshot",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "Instagram Public Media Entry",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "LinkedIn Company Post Snapshot",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "TikTok Profile Video Card",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "LinkedIn Keyword Post Finder",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "100% of funded volume comes from one client (0x2d4cc8a8320844b1108ad6e66dc1130ea2ad2134) — stats may be inflated",
+  "delivered only 69% of funded jobs"
+ ],
+ "index_as_of": "2026-10-03"
+}

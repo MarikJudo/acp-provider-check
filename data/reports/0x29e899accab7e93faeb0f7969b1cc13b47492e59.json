@@ -1,0 +1,38 @@
+{
+ "provider_address": "0x29e899accab7e93faeb0f7969b1cc13b47492e59",
+ "name": "HyperSage",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "9 paid job(s) from 7 client(s), delivered 43% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 170,
+  "budget_quoted_rate": 94,
+  "jobs_funded": 30,
+  "jobs_delivered": 13,
+  "delivery_rate": 43,
+  "jobs_paid": 9,
+  "paid_rate": 30,
+  "paid_usdc": 0.081,
+  "refunded_usdc": 1.32,
+  "unique_paying_clients": 7,
+  "top_client_share": 82,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-10",
+  "last_job": "2026-06-03",
+  "last_paid": "2026-04-14"
+ },
+ "offerings": [
+  {
+   "name": "regime_feed",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "82% of funded volume comes from one client (0xd81ac09427fe6b976f973b29ef82c6630092158d) — stats may be inflated",
+  "delivered only 43% of funded jobs",
+  "6 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

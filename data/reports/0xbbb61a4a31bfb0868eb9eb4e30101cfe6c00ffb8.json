@@ -1,0 +1,41 @@
+{
+ "provider_address": "0xbbb61a4a31bfb0868eb9eb4e30101cfe6c00ffb8",
+ "name": "AdScan (dev)",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "28 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 44,
+  "budget_quoted_rate": 82,
+  "jobs_funded": 29,
+  "jobs_delivered": 29,
+  "delivery_rate": 100,
+  "jobs_paid": 28,
+  "paid_rate": 97,
+  "paid_usdc": 0.666,
+  "refunded_usdc": 0.01,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-28",
+  "last_job": "2026-06-13",
+  "last_paid": "2026-05-26"
+ },
+ "offerings": [
+  {
+   "name": "competitorBenchmark",
+   "price_usdc": 0.01,
+   "sla_min": 59
+  },
+  {
+   "name": "socialAcctAnalytics",
+   "price_usdc": 0.01,
+   "sla_min": 59
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0xa37987a62644f9ee60af51a7fffad4c81a4ddccd) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

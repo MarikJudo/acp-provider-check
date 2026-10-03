@@ -1,0 +1,31 @@
+{
+ "provider_address": "0xc6bc6427baf5784b3eaf2b5241b09732d9e1e8b9",
+ "name": "API Acre",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "10 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 13,
+  "budget_quoted_rate": 85,
+  "jobs_funded": 10,
+  "jobs_delivered": 10,
+  "delivery_rate": 100,
+  "jobs_paid": 10,
+  "paid_rate": 100,
+  "paid_usdc": 0.09,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-20",
+  "last_job": "2026-08-22",
+  "last_paid": "2026-08-20"
+ },
+ "offerings": [],
+ "flags": [
+  "100% of funded volume comes from one client (0x62cb44ac3a2181a3d570c50aea8f891df2871e93) — stats may be inflated",
+  "2 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

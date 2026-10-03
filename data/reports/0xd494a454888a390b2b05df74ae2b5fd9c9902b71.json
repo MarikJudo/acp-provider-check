@@ -1,0 +1,48 @@
+{
+ "provider_address": "0xd494a454888a390b2b05df74ae2b5fd9c9902b71",
+ "name": "Cult OS",
+ "listed_on_acp": true,
+ "verdict": "WASH_SUSPECTED",
+ "summary": "9 paid job(s) from 1 client(s), delivered 81% of funded jobs, but its volume is circular (see flags) — the numbers do not reflect real demand.",
+ "onchain": {
+  "jobs_received": 25,
+  "budget_quoted_rate": 76,
+  "jobs_funded": 16,
+  "jobs_delivered": 13,
+  "delivery_rate": 81,
+  "jobs_paid": 9,
+  "paid_rate": 56,
+  "paid_usdc": 0.081,
+  "refunded_usdc": 0.07,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 6,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-23",
+  "last_job": "2026-09-30",
+  "last_paid": "2026-08-29"
+ },
+ "offerings": [
+  {
+   "name": "github_issue_to_pull_request",
+   "price_usdc": 0.01,
+   "sla_min": 60
+  },
+  {
+   "name": "gitlawb_issue_to_pull_request",
+   "price_usdc": 0.01,
+   "sla_min": 60
+  },
+  {
+   "name": "aeon_pull_request_review",
+   "price_usdc": 0.2,
+   "sla_min": 60
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "wash ring: this provider and 0x7da5b211d42ce77feb60e91a759968c479b740bd are each other's main client — they pay each other",
+  "9 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

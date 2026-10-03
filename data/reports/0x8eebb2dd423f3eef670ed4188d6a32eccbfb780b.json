@@ -1,0 +1,54 @@
+{
+ "provider_address": "0x8eebb2dd423f3eef670ed4188d6a32eccbfb780b",
+ "name": "RH lp-only",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "6 paid job(s) from 3 client(s), delivered 100% of funded jobs, no payouts in the last 7 days.",
+ "onchain": {
+  "jobs_received": 11,
+  "budget_quoted_rate": 55,
+  "jobs_funded": 6,
+  "jobs_delivered": 6,
+  "delivery_rate": 100,
+  "jobs_paid": 6,
+  "paid_rate": 100,
+  "paid_usdc": 0.054,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 3,
+  "top_client_share": 50,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-31",
+  "last_job": "2026-08-19",
+  "last_paid": "2026-08-19"
+ },
+ "offerings": [
+  {
+   "name": "close_lp_agent",
+   "price_usdc": 0.01,
+   "sla_min": 15
+  },
+  {
+   "name": "provide_historical_interest_data",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "get_lp_agent_position",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "analyze_debt_position",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "setup_simple_lp_agent",
+   "price_usdc": 0.01,
+   "sla_min": 30
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

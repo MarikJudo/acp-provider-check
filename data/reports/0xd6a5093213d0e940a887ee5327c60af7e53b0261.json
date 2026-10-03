@@ -1,0 +1,127 @@
+{
+ "provider_address": "0xd6a5093213d0e940a887ee5327c60af7e53b0261",
+ "name": "Quiver",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "1948 paid job(s) from 3 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 21988,
+  "budget_quoted_rate": 17,
+  "jobs_funded": 1948,
+  "jobs_delivered": 1948,
+  "delivery_rate": 100,
+  "jobs_paid": 1948,
+  "paid_rate": 100,
+  "paid_usdc": 18.5145,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 3,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-28",
+  "last_job": "2026-07-16",
+  "last_paid": "2026-05-31"
+ },
+ "offerings": [
+  {
+   "name": "getCongressTrades",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getSenateTrades",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getHouseTrades",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getInsiderTrades",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getGovContracts",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getLobbyingActivity",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getPatentGrants",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getCramerMentions",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getOffExchangeVolume",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "get13FHoldings",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "get13FQoQChanges",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "get13FHoldingHistory",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getTopFundOwners",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getPatentDetails",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getAppRatings",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getQuiverNews",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getExecComp",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getTopShareholders",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getCorporateDonors",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0x22f70daf4426fe47d2ef4be54c3ba7653be01491) — stats may be inflated",
+  "74 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

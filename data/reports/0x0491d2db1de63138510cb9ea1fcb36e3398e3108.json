@@ -1,0 +1,104 @@
+{
+ "provider_address": "0x0491d2db1de63138510cb9ea1fcb36e3398e3108",
+ "name": "AlphaBase HyperEngine",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "4 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days.",
+ "onchain": {
+  "jobs_received": 12,
+  "budget_quoted_rate": 33,
+  "jobs_funded": 4,
+  "jobs_delivered": 4,
+  "delivery_rate": 100,
+  "jobs_paid": 4,
+  "paid_rate": 100,
+  "paid_usdc": 0.315,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 1,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-06-04",
+  "last_job": "2026-09-03",
+  "last_paid": "2026-06-11"
+ },
+ "offerings": [
+  {
+   "name": "BasePredictiveSignal",
+   "price_usdc": 0.5,
+   "sla_min": 10
+  },
+  {
+   "name": "WinnerBotLeaderboard",
+   "price_usdc": 0.25,
+   "sla_min": 10
+  },
+  {
+   "name": "WhaleMovementTracker",
+   "price_usdc": 0.2,
+   "sla_min": 10
+  },
+  {
+   "name": "MorphoVaultCreditCurator",
+   "price_usdc": 0.75,
+   "sla_min": 15
+  },
+  {
+   "name": "MorphoVaultRiskGate",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "LiquidationShieldAlert",
+   "price_usdc": 0.5,
+   "sla_min": 5
+  },
+  {
+   "name": "LiquidationShieldAutoProtect",
+   "price_usdc": 1.5,
+   "sla_min": 10
+  },
+  {
+   "name": "LiquidationShieldVaultAudit",
+   "price_usdc": 2,
+   "sla_min": 15
+  },
+  {
+   "name": "NetworkPulseReport",
+   "price_usdc": 0.05,
+   "sla_min": 10
+  },
+  {
+   "name": "VolumeAnomalyScanner",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "NewPoolRadar",
+   "price_usdc": 0.15,
+   "sla_min": 5
+  },
+  {
+   "name": "RugShieldScore",
+   "price_usdc": 0.1,
+   "sla_min": 10
+  },
+  {
+   "name": "BaseTVLReport",
+   "price_usdc": 0.1,
+   "sla_min": 15
+  },
+  {
+   "name": "ProtocolRiskAudit",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "TokenEconomicsReport",
+   "price_usdc": 0.15,
+   "sla_min": 20
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

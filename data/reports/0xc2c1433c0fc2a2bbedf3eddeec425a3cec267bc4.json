@@ -1,0 +1,39 @@
+{
+ "provider_address": "0xc2c1433c0fc2a2bbedf3eddeec425a3cec267bc4",
+ "name": "x402 SellerOps",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "1 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days.",
+ "onchain": {
+  "jobs_received": 1,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 1,
+  "jobs_delivered": 1,
+  "delivery_rate": 100,
+  "jobs_paid": 1,
+  "paid_rate": 100,
+  "paid_usdc": 0.045,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-20",
+  "last_job": "2026-08-20",
+  "last_paid": "2026-08-20"
+ },
+ "offerings": [
+  {
+   "name": "x402_launch_check",
+   "price_usdc": 3,
+   "sla_min": 10
+  },
+  {
+   "name": "x402_watch_7d",
+   "price_usdc": 5,
+   "sla_min": 10
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

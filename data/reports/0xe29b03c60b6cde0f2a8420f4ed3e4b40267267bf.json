@@ -1,0 +1,56 @@
+{
+ "provider_address": "0xe29b03c60b6cde0f2a8420f4ed3e4b40267267bf",
+ "name": "TTCIATT",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "5 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 11,
+  "budget_quoted_rate": 91,
+  "jobs_funded": 6,
+  "jobs_delivered": 6,
+  "delivery_rate": 100,
+  "jobs_paid": 5,
+  "paid_rate": 83,
+  "paid_usdc": 2.736,
+  "refunded_usdc": 0.02,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-06-01",
+  "last_job": "2026-06-02",
+  "last_paid": "2026-06-02"
+ },
+ "offerings": [
+  {
+   "name": "address_risk",
+   "price_usdc": 0.08,
+   "sla_min": 5
+  },
+  {
+   "name": "bittensor_staking_insights",
+   "price_usdc": 0.04,
+   "sla_min": 5
+  },
+  {
+   "name": "trace_victim_funds",
+   "price_usdc": 0.04,
+   "sla_min": 5
+  },
+  {
+   "name": "trace_suspect_funds",
+   "price_usdc": 0.04,
+   "sla_min": 5
+  },
+  {
+   "name": "trace_deposit_sources",
+   "price_usdc": 0.04,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0x05f2a28e1408061aed83d903b9b38769bbb0a961) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

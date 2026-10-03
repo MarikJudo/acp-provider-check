@@ -1,0 +1,38 @@
+{
+ "provider_address": "0xd1baa920868a66e213383be798a415ef45e8cefe",
+ "name": "Mock Kiki Ads (Prod)",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "98 paid job(s) from 4 client(s), delivered 25% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 441,
+  "budget_quoted_rate": 94,
+  "jobs_funded": 399,
+  "jobs_delivered": 98,
+  "delivery_rate": 25,
+  "jobs_paid": 98,
+  "paid_rate": 25,
+  "paid_usdc": 6.5261,
+  "refunded_usdc": 26.419,
+  "unique_paying_clients": 4,
+  "top_client_share": 83,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-05-04",
+  "last_job": "2026-07-14",
+  "last_paid": "2026-07-08"
+ },
+ "offerings": [
+  {
+   "name": "adsPackage",
+   "price_usdc": 0.01,
+   "sla_min": 60
+  }
+ ],
+ "flags": [
+  "83% of funded volume comes from one client (0xc39d2499434dde30c23bd527ede39b8ac1c73a1f) — stats may be inflated",
+  "delivered only 25% of funded jobs",
+  "28 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

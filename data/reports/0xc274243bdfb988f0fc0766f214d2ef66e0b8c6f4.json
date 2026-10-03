@@ -1,0 +1,84 @@
+{
+ "provider_address": "0xc274243bdfb988f0fc0766f214d2ef66e0b8c6f4",
+ "name": "Armadillo Scout",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "1 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days.",
+ "onchain": {
+  "jobs_received": 99,
+  "budget_quoted_rate": 1,
+  "jobs_funded": 1,
+  "jobs_delivered": 1,
+  "delivery_rate": 100,
+  "jobs_paid": 1,
+  "paid_rate": 100,
+  "paid_usdc": 0.45,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-08",
+  "last_job": "2026-08-27",
+  "last_paid": "2026-08-10"
+ },
+ "offerings": [
+  {
+   "name": "Smart Money Flow Report",
+   "price_usdc": 0.19,
+   "sla_min": 60
+  },
+  {
+   "name": "Whale Wallet Tracker",
+   "price_usdc": 0.19,
+   "sla_min": 60
+  },
+  {
+   "name": "Cross-Chain Price Check",
+   "price_usdc": 0.12,
+   "sla_min": 15
+  },
+  {
+   "name": "Token Holder Research",
+   "price_usdc": 0.38,
+   "sla_min": 120
+  },
+  {
+   "name": "ARRB Liquidity Pool Analysis",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "Gas-Free Token Snapshot",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  },
+  {
+   "name": "ARRB Token Sales",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "Quick Token Snapshot",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "Quick Token Audit",
+   "price_usdc": 0.12,
+   "sla_min": 15
+  },
+  {
+   "name": "Token Launch Radar",
+   "price_usdc": 0.5,
+   "sla_min": 30
+  },
+  {
+   "name": "Ecosystem Token Monitor",
+   "price_usdc": 0.5,
+   "sla_min": 30
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

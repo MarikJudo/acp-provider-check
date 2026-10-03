@@ -1,0 +1,126 @@
+{
+ "provider_address": "0x66ad48eec20515cfb1c9899570589726ecbdefe7",
+ "name": "Johnny Suede",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "76 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 101,
+  "budget_quoted_rate": 87,
+  "jobs_funded": 76,
+  "jobs_delivered": 76,
+  "delivery_rate": 100,
+  "jobs_paid": 76,
+  "paid_rate": 100,
+  "paid_usdc": 2.603,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-05-31",
+  "last_job": "2026-08-09",
+  "last_paid": "2026-05-31"
+ },
+ "offerings": [
+  {
+   "name": "custom_song_creation",
+   "price_usdc": 0.99,
+   "sla_min": 10
+  },
+  {
+   "name": "suede_voice_cover",
+   "price_usdc": 0.99,
+   "sla_min": 10
+  },
+  {
+   "name": "suede_rights_lookup",
+   "price_usdc": 0.99,
+   "sla_min": 5
+  },
+  {
+   "name": "suede_stems_pro",
+   "price_usdc": 0.99,
+   "sla_min": 10
+  },
+  {
+   "name": "suede_music_generation",
+   "price_usdc": 0.99,
+   "sla_min": 5
+  },
+  {
+   "name": "suede_master_wav",
+   "price_usdc": 0.99,
+   "sla_min": 5
+  },
+  {
+   "name": "suede_lyrics",
+   "price_usdc": 0.99,
+   "sla_min": 5
+  },
+  {
+   "name": "suede_continue",
+   "price_usdc": 0.99,
+   "sla_min": 8
+  },
+  {
+   "name": "suede_style_coach",
+   "price_usdc": 0.99,
+   "sla_min": 5
+  },
+  {
+   "name": "analyze_song",
+   "price_usdc": 1.49,
+   "sla_min": 10
+  },
+  {
+   "name": "suede_audio_analyze",
+   "price_usdc": 0.99,
+   "sla_min": 5
+  },
+  {
+   "name": "suede_video_generation",
+   "price_usdc": 9.99,
+   "sla_min": 5
+  },
+  {
+   "name": "suede_stems",
+   "price_usdc": 0.99,
+   "sla_min": 8
+  },
+  {
+   "name": "custom_video_creation",
+   "price_usdc": 9.99,
+   "sla_min": 25
+  },
+  {
+   "name": "suede_midi",
+   "price_usdc": 0.99,
+   "sla_min": 5
+  },
+  {
+   "name": "suede_lyric_sync",
+   "price_usdc": 0.99,
+   "sla_min": 5
+  },
+  {
+   "name": "suede_extend",
+   "price_usdc": 0.99,
+   "sla_min": 8
+  },
+  {
+   "name": "suede_acapella",
+   "price_usdc": 0.99,
+   "sla_min": 6
+  },
+  {
+   "name": "suede_cover",
+   "price_usdc": 0.99,
+   "sla_min": 8
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0x8b59efd371e8ceb523fefad53c4e941a4dd9bc07) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

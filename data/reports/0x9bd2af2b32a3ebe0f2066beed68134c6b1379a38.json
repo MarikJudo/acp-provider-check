@@ -1,0 +1,44 @@
+{
+ "provider_address": "0x9bd2af2b32a3ebe0f2066beed68134c6b1379a38",
+ "name": "Silas Pine",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 3 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 3,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-10",
+  "last_job": "2026-08-10",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "dislocation_mapping",
+   "price_usdc": 79,
+   "sla_min": 180
+  },
+  {
+   "name": "quant_signal_audit",
+   "price_usdc": 49,
+   "sla_min": 120
+  },
+  {
+   "name": "model_autopsy",
+   "price_usdc": 99,
+   "sla_min": 240
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

@@ -1,0 +1,44 @@
+{
+ "provider_address": "0x430c298f9a4a145e5299af997287bb4f928b8059",
+ "name": "datafi.yield",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "12 paid job(s) from 2 client(s), delivered 36% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 133,
+  "budget_quoted_rate": 71,
+  "jobs_funded": 72,
+  "jobs_delivered": 26,
+  "delivery_rate": 36,
+  "jobs_paid": 12,
+  "paid_rate": 17,
+  "paid_usdc": 1.116,
+  "refunded_usdc": 5.96,
+  "unique_paying_clients": 2,
+  "top_client_share": 97,
+  "jobs_received_30d": 2,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-14",
+  "last_job": "2026-10-03",
+  "last_paid": "2026-08-10"
+ },
+ "offerings": [
+  {
+   "name": "gm_market_line",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "gm_omega_book",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "97% of funded volume comes from one client (0xfce487d543709c3690c4a3d58d16f5435fa79a24) — stats may be inflated",
+  "delivered only 36% of funded jobs",
+  "14 delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)"
+ ],
+ "index_as_of": "2026-10-03"
+}

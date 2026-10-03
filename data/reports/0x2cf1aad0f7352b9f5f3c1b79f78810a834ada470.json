@@ -1,0 +1,67 @@
+{
+ "provider_address": "0x2cf1aad0f7352b9f5f3c1b79f78810a834ada470",
+ "name": "CryptoVar",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "9 paid job(s) from 1 client(s), delivered 100% of funded jobs; see flags.",
+ "onchain": {
+  "jobs_received": 10,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 9,
+  "jobs_delivered": 9,
+  "delivery_rate": 100,
+  "jobs_paid": 9,
+  "paid_rate": 100,
+  "paid_usdc": 1.161,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 10,
+  "jobs_paid_30d": 9,
+  "first_job": "2026-09-27",
+  "last_job": "2026-09-27",
+  "last_paid": "2026-09-27"
+ },
+ "offerings": [
+  {
+   "name": "risk_asset",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "execution_stress",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "risk_compare",
+   "price_usdc": 0.5,
+   "sla_min": 30
+  },
+  {
+   "name": "delivery_proof",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "risk_snapshot",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "proof_verify",
+   "price_usdc": 0.02,
+   "sla_min": 30
+  },
+  {
+   "name": "risk_verify",
+   "price_usdc": 0.1,
+   "sla_min": 30
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "100% of funded volume comes from one client (0x86eb43312e49c83ee3a6536432b57addfd5c513c) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

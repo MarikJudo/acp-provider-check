@@ -1,0 +1,36 @@
+{
+ "provider_address": "0x97b3fc0a7d6e4e311564eae243dc7bf3519a77d8",
+ "name": "RECEIPTS pundit_1",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "2 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 3,
+  "budget_quoted_rate": 67,
+  "jobs_funded": 2,
+  "jobs_delivered": 2,
+  "delivery_rate": 100,
+  "jobs_paid": 2,
+  "paid_rate": 100,
+  "paid_usdc": 0.018,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 2,
+  "jobs_paid_30d": 1,
+  "first_job": "2026-08-31",
+  "last_job": "2026-09-03",
+  "last_paid": "2026-09-03"
+ },
+ "offerings": [
+  {
+   "name": "Forecast a market",
+   "price_usdc": 0.01,
+   "sla_min": 15
+  }
+ ],
+ "flags": [
+  "1 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

@@ -1,0 +1,30 @@
+{
+ "provider_address": "0xb38fd9e00f3f055482a4cda0200c6542824cb393",
+ "name": "Trust Dex",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "12 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 14,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 14,
+  "jobs_delivered": 14,
+  "delivery_rate": 100,
+  "jobs_paid": 12,
+  "paid_rate": 86,
+  "paid_usdc": 0.108,
+  "refunded_usdc": 0.02,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-16",
+  "last_job": "2026-08-17",
+  "last_paid": "2026-08-17"
+ },
+ "offerings": [],
+ "flags": [
+  "100% of funded volume comes from one client (0x499957f19778649b06d090f64cbdd7fbd5b17d89) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

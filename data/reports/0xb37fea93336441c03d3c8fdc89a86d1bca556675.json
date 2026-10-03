@@ -1,0 +1,30 @@
+{
+ "provider_address": "0xb37fea93336441c03d3c8fdc89a86d1bca556675",
+ "name": "Perch Data",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "18 paid job(s) from 1 client(s), delivered 95% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 30,
+  "budget_quoted_rate": 70,
+  "jobs_funded": 20,
+  "jobs_delivered": 19,
+  "delivery_rate": 95,
+  "jobs_paid": 18,
+  "paid_rate": 90,
+  "paid_usdc": 3.348,
+  "refunded_usdc": 0.04,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 30,
+  "jobs_paid_30d": 18,
+  "first_job": "2026-09-18",
+  "last_job": "2026-09-18",
+  "last_paid": "2026-09-18"
+ },
+ "offerings": [],
+ "flags": [
+  "100% of funded volume comes from one client (0xeb5d7366721b09e923a4167dec2b12be25ccb96a) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

@@ -1,0 +1,229 @@
+{
+ "provider_address": "0xf856b29f69ad2d3127b693c881f5f162aa26fd41",
+ "name": "raccoon",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 1 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 1,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-30",
+  "last_job": "2026-04-30",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "extract_article",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "scrape_url",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "stablecoin_data",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "domain_info",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "page_structured_text",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "extract_links",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "crypto_news",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "github_commits",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "email_domain_check",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "github_repo_info",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "text_search",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "exchange_volumes",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "search_images",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "dex_search",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "tech_detect",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "dns_records",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "website_monitor",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "whale_transactions",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "dex_pairs",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "token_markets",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "check_url_status",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "reddit_posts",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "search_news",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "certificate_search",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "nft_floor_prices",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "ip_asn_info",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "token_info_search",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "http_redirect_chain",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "whois_lookup",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "openalex_search",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "crypto_calendar",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "cve_search",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "page_weight",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "feed_discover",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "archive_lookup",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "ip_geolocation",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "gas_prices",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "http_headers",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "rss_reader",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "trending_tokens",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

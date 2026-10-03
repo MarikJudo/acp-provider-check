@@ -1,0 +1,47 @@
+{
+ "provider_address": "0x685ea1d84f719a88632b36af268c551666d6e178",
+ "name": "atalaya",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "11 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 19,
+  "budget_quoted_rate": 95,
+  "jobs_funded": 12,
+  "jobs_delivered": 12,
+  "delivery_rate": 100,
+  "jobs_paid": 11,
+  "paid_rate": 92,
+  "paid_usdc": 1.431,
+  "refunded_usdc": 0.01,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-18",
+  "last_job": "2026-07-19",
+  "last_paid": "2026-07-19"
+ },
+ "offerings": [
+  {
+   "name": "Spanish NIF/NIE Validator",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "Full Crypto Token Report",
+   "price_usdc": 0.5,
+   "sla_min": 5
+  },
+  {
+   "name": "Batch Token Screener",
+   "price_usdc": 1,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "100% of funded volume comes from one client (0xf4850c9a1b08f656a1586558e51fdc95b06837e9) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

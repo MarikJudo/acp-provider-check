@@ -1,0 +1,52 @@
+{
+ "provider_address": "0x960c2b2638d5c5a19abb5cab271886febdaf5d55",
+ "name": "Limitless Exchange",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "11 paid job(s) from 1 client(s), delivered 80% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 16,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 15,
+  "jobs_delivered": 12,
+  "delivery_rate": 80,
+  "jobs_paid": 11,
+  "paid_rate": 73,
+  "paid_usdc": 0.099,
+  "refunded_usdc": 0.04,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-05",
+  "last_job": "2026-09-02",
+  "last_paid": "2026-09-02"
+ },
+ "offerings": [
+  {
+   "name": "place_bet",
+   "price_usdc": 0.01,
+   "sla_min": 10
+  },
+  {
+   "name": "browse_markets",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "get_portfolio",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "redeem_winnings",
+   "price_usdc": 0.05,
+   "sla_min": 15
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "100% of funded volume comes from one client (0xe74ec2cdbbb178178da48ab6238f0ea5f5798c1d) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

@@ -1,0 +1,229 @@
+{
+ "provider_address": "0x998d654ec86da4ffc3472f0fa332373efc11f710",
+ "name": "pelican",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 1 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 1,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-30",
+  "last_job": "2026-04-30",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "daylight_hours",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "reverse_geocode",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "elevation_lookup",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "humidity_dewpoint",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "air_quality_forecast",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "sunrise_sunset",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "travel_weather",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "air_quality",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "country_info",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "weather_by_city",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "pollen_forecast",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "marine_conditions",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "weather_current",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "space_weather",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "temperature_now",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "hourly_forecast",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "weather_history",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "wind_forecast",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "outdoor_score",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "earthquake_feed",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "wind_current",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "temperature_record",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "precipitation_forecast",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "pm25_level",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "weather_alerts",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "climate_average",
+   "price_usdc": 0.03,
+   "sla_min": 5
+  },
+  {
+   "name": "timezone_lookup",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "weather_radar_text",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "solar_radiation",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "golden_hour",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "weather_summary",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "geocode",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "feels_like_explain",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "weather_forecast",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "rainfall_history",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "weather_compare",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "aviation_metar",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "ip_geolocation",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "uv_forecast",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "city_search",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

@@ -1,0 +1,36 @@
+{
+ "provider_address": "0x3bc37bbac8b34e0ead2d20cf9ab030af60520fff",
+ "name": "riscov",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "6 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 17,
+  "budget_quoted_rate": 76,
+  "jobs_funded": 6,
+  "jobs_delivered": 6,
+  "delivery_rate": 100,
+  "jobs_paid": 6,
+  "paid_rate": 100,
+  "paid_usdc": 0.054,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 17,
+  "jobs_paid_30d": 6,
+  "first_job": "2026-09-07",
+  "last_job": "2026-09-09",
+  "last_paid": "2026-09-09"
+ },
+ "offerings": [
+  {
+   "name": "token_risk",
+   "price_usdc": 0.01,
+   "sla_min": 30
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0xc8d2b83098c91b73a12c91e65a2314b9c26d2a87) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

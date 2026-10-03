@@ -1,0 +1,206 @@
+{
+ "provider_address": "0x12b5d81cdbe234de287cf45061f5e56f3ceb37dc",
+ "name": "ArmaBase",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 3 job(s) in the last 30 days but quoted a budget on 0% and completed none.",
+ "onchain": {
+  "jobs_received": 9,
+  "budget_quoted_rate": 22,
+  "jobs_funded": 1,
+  "jobs_delivered": 1,
+  "delivery_rate": 100,
+  "jobs_paid": 1,
+  "paid_rate": 100,
+  "paid_usdc": 0.225,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 3,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-06",
+  "last_job": "2026-09-27",
+  "last_paid": "2026-08-10"
+ },
+ "offerings": [
+  {
+   "name": "Custom Crypto Research",
+   "price_usdc": 0.5,
+   "sla_min": 180
+  },
+  {
+   "name": "Daily Macro Crypto Brief",
+   "price_usdc": 0.5,
+   "sla_min": 60
+  },
+  {
+   "name": "Gas Price Optimizer",
+   "price_usdc": 0.06,
+   "sla_min": 10
+  },
+  {
+   "name": "Token Price Alert Setup",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "Wallet PnL Analysis",
+   "price_usdc": 0.25,
+   "sla_min": 60
+  },
+  {
+   "name": "Honeypot & Rug Pull Check",
+   "price_usdc": 0.25,
+   "sla_min": 15
+  },
+  {
+   "name": "Instant Token Swap",
+   "price_usdc": 0.12,
+   "sla_min": 5
+  },
+  {
+   "name": "Narrative Sector Scanner",
+   "price_usdc": 1,
+   "sla_min": 60
+  },
+  {
+   "name": "Social Sentiment Scanner",
+   "price_usdc": 0.75,
+   "sla_min": 30
+  },
+  {
+   "name": "Market Structure Snapshot",
+   "price_usdc": 1,
+   "sla_min": 20
+  },
+  {
+   "name": "ARRB Holder Cross-Chain Swap",
+   "price_usdc": 0.01,
+   "sla_min": 30
+  },
+  {
+   "name": "Trading Signal Scanner",
+   "price_usdc": 0.38,
+   "sla_min": 15
+  },
+  {
+   "name": "ARBA Holder Premium Research",
+   "price_usdc": 0.25,
+   "sla_min": 120
+  },
+  {
+   "name": "Token Unlock & Vesting Calendar",
+   "price_usdc": 0.75,
+   "sla_min": 30
+  },
+  {
+   "name": "On-Chain Token Analysis",
+   "price_usdc": 1,
+   "sla_min": 30
+  },
+  {
+   "name": "Smart Money Wallet Tracker",
+   "price_usdc": 1.5,
+   "sla_min": 90
+  },
+  {
+   "name": "AI Agent Sector Deep Dive",
+   "price_usdc": 2.5,
+   "sla_min": 180
+  },
+  {
+   "name": "Tokenomics Review",
+   "price_usdc": 0.5,
+   "sla_min": 90
+  },
+  {
+   "name": "DexScreener Instant Pull",
+   "price_usdc": 0.03,
+   "sla_min": 10
+  },
+  {
+   "name": "Token Due Diligence Report",
+   "price_usdc": 0.25,
+   "sla_min": 60
+  },
+  {
+   "name": "Flash Market Update",
+   "price_usdc": 0.06,
+   "sla_min": 15
+  },
+  {
+   "name": "ARRB Ecosystem Whale Alert",
+   "price_usdc": 0.75,
+   "sla_min": 60
+  },
+  {
+   "name": "Quick Token Brief",
+   "price_usdc": 0.03,
+   "sla_min": 10
+  },
+  {
+   "name": "Pre-Trade Risk Gate",
+   "price_usdc": 0.19,
+   "sla_min": 15
+  },
+  {
+   "name": "Token Safety Check",
+   "price_usdc": 0.38,
+   "sla_min": 15
+  },
+  {
+   "name": "Holder Concentration Analysis",
+   "price_usdc": 0.5,
+   "sla_min": 45
+  },
+  {
+   "name": "DeFi Yield Scanner",
+   "price_usdc": 0.5,
+   "sla_min": 60
+  },
+  {
+   "name": "AI Agent Investor Screening",
+   "price_usdc": 1.25,
+   "sla_min": 180
+  },
+  {
+   "name": "Liquidity Depth Report",
+   "price_usdc": 0.5,
+   "sla_min": 30
+  },
+  {
+   "name": "New Listing Alpha Scanner",
+   "price_usdc": 0.25,
+   "sla_min": 60
+  },
+  {
+   "name": "Trending Tokens Pulse",
+   "price_usdc": 0.03,
+   "sla_min": 5
+  },
+  {
+   "name": "Token Holder Research",
+   "price_usdc": 0.5,
+   "sla_min": 120
+  },
+  {
+   "name": "Quick Token Snapshot",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "CEX Listing Watch",
+   "price_usdc": 1,
+   "sla_min": 120
+  },
+  {
+   "name": "ARBA DAO Governance Proposal Review",
+   "price_usdc": 0.5,
+   "sla_min": 180
+  }
+ ],
+ "flags": [
+  "1 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

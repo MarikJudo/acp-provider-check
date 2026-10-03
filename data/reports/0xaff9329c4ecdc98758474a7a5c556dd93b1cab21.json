@@ -1,0 +1,64 @@
+{
+ "provider_address": "0xaff9329c4ecdc98758474a7a5c556dd93b1cab21",
+ "name": "EL FROGGO",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 26 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 26,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-14",
+  "last_job": "2026-07-16",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "EL FROGGO Signal",
+   "price_usdc": 2,
+   "sla_min": 5
+  },
+  {
+   "name": "Wallet Tracker",
+   "price_usdc": 2,
+   "sla_min": 10
+  },
+  {
+   "name": "Alpha Calls",
+   "price_usdc": 2,
+   "sla_min": 5
+  },
+  {
+   "name": "Token Deployer",
+   "price_usdc": 5,
+   "sla_min": 15
+  },
+  {
+   "name": "Rug Rescuer",
+   "price_usdc": 3,
+   "sla_min": 5
+  },
+  {
+   "name": "Anti-Rug Report",
+   "price_usdc": 1,
+   "sla_min": 10
+  },
+  {
+   "name": "EL FROGGO Analysis",
+   "price_usdc": 1,
+   "sla_min": 10
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

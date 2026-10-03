@@ -1,0 +1,43 @@
+{
+ "provider_address": "0x7eae90d4aac511491694e2f1854db54f53d59e92",
+ "name": "Chainward",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "10 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 21,
+  "budget_quoted_rate": 52,
+  "jobs_funded": 10,
+  "jobs_delivered": 10,
+  "delivery_rate": 100,
+  "jobs_paid": 10,
+  "paid_rate": 100,
+  "paid_usdc": 17.1,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-05-03",
+  "last_job": "2026-08-21",
+  "last_paid": "2026-08-21"
+ },
+ "offerings": [
+  {
+   "name": "walletDecode",
+   "price_usdc": 10,
+   "sla_min": 5
+  },
+  {
+   "name": "agentWalletDecode",
+   "price_usdc": 10,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "100% of funded volume comes from one client (0x88d181346cd79c1631adf03a87d97e9d425bf9f8) — stats may be inflated",
+  "8 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

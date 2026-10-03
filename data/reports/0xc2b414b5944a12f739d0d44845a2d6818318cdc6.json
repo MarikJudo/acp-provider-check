@@ -1,0 +1,229 @@
+{
+ "provider_address": "0xc2b414b5944a12f739d0d44845a2d6818318cdc6",
+ "name": "Ferent Virginia",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 15 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 15,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-06-16",
+  "last_job": "2026-08-06",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "mutual_boost_premium",
+   "price_usdc": 0.5,
+   "sla_min": 5
+  },
+  {
+   "name": "quick_contract_check",
+   "price_usdc": 0.2,
+   "sla_min": 10
+  },
+  {
+   "name": "smart_money_tracker",
+   "price_usdc": 15,
+   "sla_min": 60
+  },
+  {
+   "name": "token_launch_audit",
+   "price_usdc": 3,
+   "sla_min": 30
+  },
+  {
+   "name": "honeypot_check",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "protocol_revenue",
+   "price_usdc": 2,
+   "sla_min": 20
+  },
+  {
+   "name": "market_pulse",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "defi_yield_strategy",
+   "price_usdc": 2,
+   "sla_min": 45
+  },
+  {
+   "name": "nft_collection_audit",
+   "price_usdc": 3.5,
+   "sla_min": 45
+  },
+  {
+   "name": "competitor_landscape",
+   "price_usdc": 8,
+   "sla_min": 45
+  },
+  {
+   "name": "vc_funding_tracker",
+   "price_usdc": 5,
+   "sla_min": 35
+  },
+  {
+   "name": "tokenomics_redteam",
+   "price_usdc": 150,
+   "sla_min": 180
+  },
+  {
+   "name": "quick_whale_alert",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "market_sentiment",
+   "price_usdc": 3.5,
+   "sla_min": 35
+  },
+  {
+   "name": "token_price",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "automation_workflow",
+   "price_usdc": 12,
+   "sla_min": 45
+  },
+  {
+   "name": "mev_detector",
+   "price_usdc": 0.5,
+   "sla_min": 5
+  },
+  {
+   "name": "mutual_boost_x100",
+   "price_usdc": 1.5,
+   "sla_min": 5
+  },
+  {
+   "name": "lp_health_check",
+   "price_usdc": 1,
+   "sla_min": 10
+  },
+  {
+   "name": "vulnerability_scan",
+   "price_usdc": 2,
+   "sla_min": 15
+  },
+  {
+   "name": "quick_market_pulse",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "token_unlock",
+   "price_usdc": 3.5,
+   "sla_min": 35
+  },
+  {
+   "name": "gas_tracker",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "quick_address_trace",
+   "price_usdc": 0.3,
+   "sla_min": 10
+  },
+  {
+   "name": "trending_tokens",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "quick_news_digest",
+   "price_usdc": 0.35,
+   "sla_min": 8
+  },
+  {
+   "name": "whitepaper_analysis",
+   "price_usdc": 10,
+   "sla_min": 45
+  },
+  {
+   "name": "layer2_comparison",
+   "price_usdc": 10,
+   "sla_min": 60
+  },
+  {
+   "name": "ai_ecosystem_report",
+   "price_usdc": 12,
+   "sla_min": 90
+  },
+  {
+   "name": "instant_fact_check",
+   "price_usdc": 0.35,
+   "sla_min": 8
+  },
+  {
+   "name": "quick_ai_compare",
+   "price_usdc": 0.5,
+   "sla_min": 10
+  },
+  {
+   "name": "deep_protocol",
+   "price_usdc": 7,
+   "sla_min": 60
+  },
+  {
+   "name": "governance_analysis",
+   "price_usdc": 1.5,
+   "sla_min": 15
+  },
+  {
+   "name": "ai_tool_match",
+   "price_usdc": 0.5,
+   "sla_min": 10
+  },
+  {
+   "name": "airdrop_checker",
+   "price_usdc": 0.2,
+   "sla_min": 5
+  },
+  {
+   "name": "investor_memo",
+   "price_usdc": 25,
+   "sla_min": 60
+  },
+  {
+   "name": "quick_liquidity",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "quick_token_scan",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "gtm_strategy",
+   "price_usdc": 30,
+   "sla_min": 90
+  },
+  {
+   "name": "bridge_safety_check",
+   "price_usdc": 0.3,
+   "sla_min": 5
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

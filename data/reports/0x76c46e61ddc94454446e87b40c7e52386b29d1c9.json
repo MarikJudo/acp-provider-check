@@ -1,0 +1,41 @@
+{
+ "provider_address": "0x76c46e61ddc94454446e87b40c7e52386b29d1c9",
+ "name": "TrustLayer",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "26 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 35,
+  "budget_quoted_rate": 94,
+  "jobs_funded": 26,
+  "jobs_delivered": 26,
+  "delivery_rate": 100,
+  "jobs_paid": 26,
+  "paid_rate": 100,
+  "paid_usdc": 0.234,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-05-24",
+  "last_job": "2026-07-15",
+  "last_paid": "2026-06-21"
+ },
+ "offerings": [
+  {
+   "name": "trustScore",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "trustScorenpx",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0xdc9edf1ddefa8f0e02d53eccac8fd229323bd076) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

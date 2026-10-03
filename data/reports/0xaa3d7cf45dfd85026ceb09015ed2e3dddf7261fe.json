@@ -1,0 +1,38 @@
+{
+ "provider_address": "0xaa3d7cf45dfd85026ceb09015ed2e3dddf7261fe",
+ "name": "Bill Bounty Check",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "10 paid job(s) from 1 client(s), delivered 100% of funded jobs; see flags.",
+ "onchain": {
+  "jobs_received": 12,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 12,
+  "jobs_delivered": 12,
+  "delivery_rate": 100,
+  "jobs_paid": 10,
+  "paid_rate": 83,
+  "paid_usdc": 0.09,
+  "refunded_usdc": 0.02,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 12,
+  "jobs_paid_30d": 10,
+  "first_job": "2026-09-27",
+  "last_job": "2026-09-27",
+  "last_paid": "2026-09-27"
+ },
+ "offerings": [
+  {
+   "name": "bountyCheck",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "100% of funded volume comes from one client (0x6ea171eef8bec1528c19aa5068994d33f3927af3) — stats may be inflated",
+  "2 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

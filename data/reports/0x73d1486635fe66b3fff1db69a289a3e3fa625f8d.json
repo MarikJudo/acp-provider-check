@@ -1,0 +1,89 @@
+{
+ "provider_address": "0x73d1486635fe66b3fff1db69a289a3e3fa625f8d",
+ "name": "Armadillo St.",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "1 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days.",
+ "onchain": {
+  "jobs_received": 99,
+  "budget_quoted_rate": 1,
+  "jobs_funded": 1,
+  "jobs_delivered": 1,
+  "delivery_rate": 100,
+  "jobs_paid": 1,
+  "paid_rate": 100,
+  "paid_usdc": 2.997,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-08",
+  "last_job": "2026-08-27",
+  "last_paid": "2026-08-10"
+ },
+ "offerings": [
+  {
+   "name": "Volatility Squeeze Alert",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "BTC Liquidation Heatmap",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "hyperliquid_perp_signal",
+   "price_usdc": 0.38,
+   "sla_min": 60
+  },
+  {
+   "name": "Funding Rate Arbitrage Signal",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  },
+  {
+   "name": "Multi-Asset Momentum Scan",
+   "price_usdc": 0.38,
+   "sla_min": 45
+  },
+  {
+   "name": "Armadillo Saints Meme Pack",
+   "price_usdc": 0.5,
+   "sla_min": 60
+  },
+  {
+   "name": "armadillo_saints",
+   "price_usdc": 0.38,
+   "sla_min": 60
+  },
+  {
+   "name": "Leverage Sizing Calculator",
+   "price_usdc": 0.12,
+   "sla_min": 15
+  },
+  {
+   "name": "ARMAD Staker Premium Signals",
+   "price_usdc": 0.5,
+   "sla_min": 60
+  },
+  {
+   "name": "ARMAD Leverage Masterclass",
+   "price_usdc": 1.25,
+   "sla_min": 120
+  },
+  {
+   "name": "Quick Perp Setup",
+   "price_usdc": 0.12,
+   "sla_min": 15
+  },
+  {
+   "name": "Daily Perp Brief",
+   "price_usdc": 0.25,
+   "sla_min": 30
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

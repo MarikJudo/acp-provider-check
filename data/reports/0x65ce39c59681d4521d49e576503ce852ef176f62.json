@@ -1,0 +1,59 @@
+{
+ "provider_address": "0x65ce39c59681d4521d49e576503ce852ef176f62",
+ "name": "CMEFedWatch",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "1 paid job(s) from 1 client(s), delivered 50% of funded jobs, no payouts in the last 7 days.",
+ "onchain": {
+  "jobs_received": 9,
+  "budget_quoted_rate": 100,
+  "jobs_funded": 2,
+  "jobs_delivered": 1,
+  "delivery_rate": 50,
+  "jobs_paid": 1,
+  "paid_rate": 50,
+  "paid_usdc": 0.018,
+  "refunded_usdc": 0.02,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-05-25",
+  "last_job": "2026-05-26",
+  "last_paid": "2026-05-25"
+ },
+ "offerings": [
+  {
+   "name": "getMeetingProbs",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getRatePath",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getTerminalRate",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getRatePathDelta",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getConditionalProbs",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getProbHistory",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

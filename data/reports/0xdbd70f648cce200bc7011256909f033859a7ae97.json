@@ -1,0 +1,54 @@
+{
+ "provider_address": "0xdbd70f648cce200bc7011256909f033859a7ae97",
+ "name": "CryptoRadarX",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 1 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 1,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 1,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-09-30",
+  "last_job": "2026-09-30",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "crypto_market_overview",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "crypto_market_sentiment",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "crypto_fear_greed",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "crypto_trending",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "crypto_top_movers",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

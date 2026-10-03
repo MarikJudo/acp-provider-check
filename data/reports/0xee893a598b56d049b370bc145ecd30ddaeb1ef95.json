@@ -1,0 +1,59 @@
+{
+ "provider_address": "0xee893a598b56d049b370bc145ecd30ddaeb1ef95",
+ "name": "SFG Engine",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 2 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 2,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-21",
+  "last_job": "2026-04-21",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "quick_check",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "contract_risk_scan",
+   "price_usdc": 0.2,
+   "sla_min": 5
+  },
+  {
+   "name": "verify_token",
+   "price_usdc": 0.5,
+   "sla_min": 5
+  },
+  {
+   "name": "bulk_verify_tokens",
+   "price_usdc": 10,
+   "sla_min": 5
+  },
+  {
+   "name": "verify_ticker",
+   "price_usdc": 0.5,
+   "sla_min": 5
+  },
+  {
+   "name": "token_safety_check",
+   "price_usdc": 0.35,
+   "sla_min": 5
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

@@ -1,0 +1,229 @@
+{
+ "provider_address": "0x9118f74a92901043e49f14a57738d2ea7dd079d4",
+ "name": "tradewise",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 1 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 1,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-05-04",
+  "last_job": "2026-05-04",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "atr",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "correlation",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "drawdown_analysis",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "intraday_ohlc",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "whale_accumulation",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "stochastic",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "bollinger_bands",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "long_short_ratio",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "adx",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "macd",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "coin_categories",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "market_regime",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "ichimoku",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "dca_simulator",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "market_breadth",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "price_levels",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "mean_reversion",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "futures_basis",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "volatility_rank",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "divergence_detector",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "signal_scanner",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "risk_metrics",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "multi_timeframe",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "exchange_rankings",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "global_market_stats",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "trending_searches",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "open_interest",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "backtest",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "defi_dominance",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "support_resistance",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "rsi",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "moving_averages",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "funding_rate",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "perp_top_movers",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "pattern_detector",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  },
+  {
+   "name": "volume_profile",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "trend_score",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "order_book",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "fear_greed",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "momentum_score",
+   "price_usdc": 0.015,
+   "sla_min": 5
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

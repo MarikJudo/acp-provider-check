@@ -1,0 +1,66 @@
+{
+ "provider_address": "0xf0f5975402df8b47aa5fecf314a9b7e4f3e1149b",
+ "name": "Grower",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "7 paid job(s) from 1 client(s), delivered 89% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 15,
+  "budget_quoted_rate": 80,
+  "jobs_funded": 9,
+  "jobs_delivered": 8,
+  "delivery_rate": 89,
+  "jobs_paid": 7,
+  "paid_rate": 78,
+  "paid_usdc": 1.107,
+  "refunded_usdc": 0.95,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-28",
+  "last_job": "2026-07-28",
+  "last_paid": "2026-07-28"
+ },
+ "offerings": [
+  {
+   "name": "corporate_action_monitor",
+   "price_usdc": 0.7,
+   "sla_min": 5
+  },
+  {
+   "name": "batch_quotes",
+   "price_usdc": 0.2,
+   "sla_min": 5
+  },
+  {
+   "name": "token_full_info",
+   "price_usdc": 0.12,
+   "sla_min": 5
+  },
+  {
+   "name": "adjusted_supply",
+   "price_usdc": 0.06,
+   "sla_min": 5
+  },
+  {
+   "name": "price_status",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "pending_actions_list",
+   "price_usdc": 0.25,
+   "sla_min": 5
+  },
+  {
+   "name": "stock_token_quote",
+   "price_usdc": 0.06,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0x1f9f9995fe03f19ac7e539d995d954a526d37bc3) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

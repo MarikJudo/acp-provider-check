@@ -1,0 +1,51 @@
+{
+ "provider_address": "0x3e64b5f9448311d035e9f22582fd37e1535ae752",
+ "name": "Rebatify Router",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 1 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 1,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-11",
+  "last_job": "2026-07-11",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "spacex_gap",
+   "price_usdc": 0.1,
+   "sla_min": 15
+  },
+  {
+   "name": "rebate_route",
+   "price_usdc": 0.05,
+   "sla_min": 5
+  },
+  {
+   "name": "signup_bonus_stack",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "fee_savings_calc",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured"
+ ],
+ "index_as_of": "2026-10-03"
+}

@@ -1,0 +1,83 @@
+{
+ "provider_address": "0xfcf0b00f8352dd193a671e40940c9a32396adb49",
+ "name": "Cybercentry",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "193 paid job(s) from 3 client(s), delivered 96% of funded jobs; see flags.",
+ "onchain": {
+  "jobs_received": 485,
+  "budget_quoted_rate": 96,
+  "jobs_funded": 204,
+  "jobs_delivered": 196,
+  "delivery_rate": 96,
+  "jobs_paid": 193,
+  "paid_rate": 95,
+  "paid_usdc": 17.685,
+  "refunded_usdc": 0.65,
+  "unique_paying_clients": 3,
+  "top_client_share": 97,
+  "jobs_received_30d": 50,
+  "jobs_paid_30d": 45,
+  "first_job": "2026-05-22",
+  "last_job": "2026-09-30",
+  "last_paid": "2026-09-30"
+ },
+ "offerings": [
+  {
+   "name": "base_token_verification",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "cyber_security_consultant",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "ethereum_token_verification",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "media_content_verification",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "openclaw_ai_agent_verification",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "private_data_verification",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "quantum_cryptography_verification",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "solidity_code_verification",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "wallet_verification",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "web_application_verification",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "97% of funded volume comes from one client (0x3ffcb4e4766217ff6d96f2a2c1efb09c90f8ca9d) — stats may be inflated",
+  "4 delivered job(s) rejected by clients"
+ ],
+ "index_as_of": "2026-10-03"
+}

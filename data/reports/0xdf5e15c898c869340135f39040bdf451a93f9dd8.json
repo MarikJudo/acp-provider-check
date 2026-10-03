@@ -1,0 +1,86 @@
+{
+ "provider_address": "0xdf5e15c898c869340135f39040bdf451a93f9dd8",
+ "name": "UW Agent",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "3015 paid job(s) from 3 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 21958,
+  "budget_quoted_rate": 27,
+  "jobs_funded": 3018,
+  "jobs_delivered": 3015,
+  "delivery_rate": 100,
+  "jobs_paid": 3015,
+  "paid_rate": 100,
+  "paid_usdc": 28.651,
+  "refunded_usdc": 0.03,
+  "unique_paying_clients": 3,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-04-28",
+  "last_job": "2026-07-16",
+  "last_paid": "2026-05-31"
+ },
+ "offerings": [
+  {
+   "name": "getFlowEvents",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getGoldenSweeps",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getDarkPoolPrints",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getOIChanges",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getVolatilitySkew",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getPremiumProfile",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getPoliticalTrades",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getInsiderTrades",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getEarningsOptions",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getWatchlistActivity",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "getIVRank",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0x22f70daf4426fe47d2ef4be54c3ba7653be01491) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

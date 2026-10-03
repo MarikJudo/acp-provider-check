@@ -1,0 +1,34 @@
+{
+ "provider_address": "0xe040d1928b45d6045d8c74c823aa223919ab1999",
+ "name": "halflife ",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 5 job(s) and never quoted a budget on any of them.",
+ "onchain": {
+  "jobs_received": 5,
+  "budget_quoted_rate": 0,
+  "jobs_funded": 0,
+  "jobs_delivered": 0,
+  "delivery_rate": 0,
+  "jobs_paid": 0,
+  "paid_rate": 0,
+  "paid_usdc": 0,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 0,
+  "top_client_share": 0,
+  "jobs_received_30d": 5,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-09-10",
+  "last_job": "2026-09-10",
+  "last_paid": null
+ },
+ "offerings": [
+  {
+   "name": "certifyStanding",
+   "price_usdc": 0.1,
+   "sla_min": 30
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

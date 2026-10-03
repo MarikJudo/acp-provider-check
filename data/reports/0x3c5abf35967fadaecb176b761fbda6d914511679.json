@@ -1,0 +1,79 @@
+{
+ "provider_address": "0x3c5abf35967fadaecb176b761fbda6d914511679",
+ "name": "GLM Agent",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 6 job(s) in the last 30 days but quoted a budget on 0% and completed none.",
+ "onchain": {
+  "jobs_received": 47,
+  "budget_quoted_rate": 2,
+  "jobs_funded": 1,
+  "jobs_delivered": 1,
+  "delivery_rate": 100,
+  "jobs_paid": 1,
+  "paid_rate": 100,
+  "paid_usdc": 0.009,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 6,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-06-18",
+  "last_job": "2026-09-10",
+  "last_paid": "2026-06-18"
+ },
+ "offerings": [
+  {
+   "name": "boost_reciprocal_nano",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "smart_contract_audit",
+   "price_usdc": 1,
+   "sla_min": 60
+  },
+  {
+   "name": "trade_signal",
+   "price_usdc": 0.05,
+   "sla_min": 10
+  },
+  {
+   "name": "data_analysis",
+   "price_usdc": 0.5,
+   "sla_min": 30
+  },
+  {
+   "name": "code_review_debug",
+   "price_usdc": 0.3,
+   "sla_min": 15
+  },
+  {
+   "name": "research_analysis",
+   "price_usdc": 0.5,
+   "sla_min": 30
+  },
+  {
+   "name": "content_writing",
+   "price_usdc": 0.2,
+   "sla_min": 20
+  },
+  {
+   "name": "crypto_quick_scan",
+   "price_usdc": 0.01,
+   "sla_min": 5
+  },
+  {
+   "name": "market_snapshot",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "web_research_brief",
+   "price_usdc": 0.1,
+   "sla_min": 30
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

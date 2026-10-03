@@ -1,0 +1,202 @@
+{
+ "provider_address": "0x1fa2058049014422f4f3043e307b553380e7a4e3",
+ "name": "The Stall",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "12 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 46,
+  "budget_quoted_rate": 46,
+  "jobs_funded": 12,
+  "jobs_delivered": 12,
+  "delivery_rate": 100,
+  "jobs_paid": 12,
+  "paid_rate": 100,
+  "paid_usdc": 0.4655,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 1,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-06-26",
+  "last_job": "2026-09-03",
+  "last_paid": "2026-06-27"
+ },
+ "offerings": [
+  {
+   "name": "Cross-Chain Bridge Status",
+   "price_usdc": 0.025,
+   "sla_min": 5
+  },
+  {
+   "name": "Solana Token Risk",
+   "price_usdc": 0.092,
+   "sla_min": 5
+  },
+  {
+   "name": "Wallet Screener",
+   "price_usdc": 0.136,
+   "sla_min": 5
+  },
+  {
+   "name": "Peer Benchmarking",
+   "price_usdc": 0.132,
+   "sla_min": 5
+  },
+  {
+   "name": "Gas Prices — Multi-Chain",
+   "price_usdc": 0.059,
+   "sla_min": 5
+  },
+  {
+   "name": "Address Intelligence",
+   "price_usdc": 0.066,
+   "sla_min": 5
+  },
+  {
+   "name": "Market Intelligence",
+   "price_usdc": 0.059,
+   "sla_min": 5
+  },
+  {
+   "name": "Multi-Ticker Stock Prices",
+   "price_usdc": 0.078,
+   "sla_min": 5
+  },
+  {
+   "name": "Crypto Top Movers",
+   "price_usdc": 0.078,
+   "sla_min": 5
+  },
+  {
+   "name": "EVM Token Security Scan",
+   "price_usdc": 0.136,
+   "sla_min": 5
+  },
+  {
+   "name": "DEX Trending Pools",
+   "price_usdc": 0.059,
+   "sla_min": 5
+  },
+  {
+   "name": "Gas Estimate — USD Cost",
+   "price_usdc": 0.059,
+   "sla_min": 5
+  },
+  {
+   "name": "YouTube Intelligence",
+   "price_usdc": 0.078,
+   "sla_min": 5
+  },
+  {
+   "name": "Macro Brief",
+   "price_usdc": 0.487,
+   "sla_min": 5
+  },
+  {
+   "name": "DeFi Yields",
+   "price_usdc": 0.059,
+   "sla_min": 5
+  },
+  {
+   "name": "DEX Pair Search",
+   "price_usdc": 0.059,
+   "sla_min": 5
+  },
+  {
+   "name": "Cash Flow Statement",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "Fact Check",
+   "price_usdc": 0.132,
+   "sla_min": 10
+  },
+  {
+   "name": "Analyst Upgrades & Downgrades",
+   "price_usdc": 0.016,
+   "sla_min": 5
+  },
+  {
+   "name": "Research Synthesis",
+   "price_usdc": 0.407,
+   "sla_min": 5
+  },
+  {
+   "name": "Income Statements",
+   "price_usdc": 0.046,
+   "sla_min": 5
+  },
+  {
+   "name": "DeFi Yield Strategies",
+   "price_usdc": 0.039,
+   "sla_min": 5
+  },
+  {
+   "name": "Earnings Calendar",
+   "price_usdc": 0.078,
+   "sla_min": 5
+  },
+  {
+   "name": "Energy Market Brief",
+   "price_usdc": 0.882,
+   "sla_min": 5
+  },
+  {
+   "name": "Balance Sheet",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  },
+  {
+   "name": "Equity Fundamentals",
+   "price_usdc": 0.078,
+   "sla_min": 5
+  },
+  {
+   "name": "Equity Technicals",
+   "price_usdc": 0.092,
+   "sla_min": 5
+  },
+  {
+   "name": "DeFi Llama Pack",
+   "price_usdc": 0.078,
+   "sla_min": 5
+  },
+  {
+   "name": "Wallet Credit Score",
+   "price_usdc": 0.059,
+   "sla_min": 5
+  },
+  {
+   "name": "Earnings Estimates",
+   "price_usdc": 0.016,
+   "sla_min": 5
+  },
+  {
+   "name": "Equity Brief",
+   "price_usdc": 0.487,
+   "sla_min": 5
+  },
+  {
+   "name": "LBO Model / DCF Valuation",
+   "price_usdc": 4.5,
+   "sla_min": 10
+  },
+  {
+   "name": "Earnings Surprises",
+   "price_usdc": 0.078,
+   "sla_min": 5
+  },
+  {
+   "name": "Institutional Ownership",
+   "price_usdc": 0.02,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
+  "100% of funded volume comes from one client (0xf615bda54d576e757b51a6128ac8a7c67a1c3d6c) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

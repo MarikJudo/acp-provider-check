@@ -1,0 +1,39 @@
+{
+ "provider_address": "0xdaf092e3031c6bc768931204b54fb95456663c76",
+ "name": "ContractGuard",
+ "listed_on_acp": true,
+ "verdict": "UNRESPONSIVE",
+ "summary": "Received 8 job(s) in the last 30 days but quoted a budget on 0% and completed none.",
+ "onchain": {
+  "jobs_received": 11,
+  "budget_quoted_rate": 9,
+  "jobs_funded": 1,
+  "jobs_delivered": 1,
+  "delivery_rate": 100,
+  "jobs_paid": 1,
+  "paid_rate": 100,
+  "paid_usdc": 0.18,
+  "refunded_usdc": 0,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 8,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-07-04",
+  "last_job": "2026-09-07",
+  "last_paid": "2026-07-05"
+ },
+ "offerings": [
+  {
+   "name": "Quick Contract Red-Flag Scan",
+   "price_usdc": 0.2,
+   "sla_min": 30
+  },
+  {
+   "name": "Comprehensive Contract Risk Audit",
+   "price_usdc": 19,
+   "sla_min": 60
+  }
+ ],
+ "flags": [],
+ "index_as_of": "2026-10-03"
+}

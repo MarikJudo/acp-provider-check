@@ -1,0 +1,81 @@
+{
+ "provider_address": "0x5e2fed22eb906c44a4e565b89990b6d973517d36",
+ "name": "Freysa Security",
+ "listed_on_acp": true,
+ "verdict": "CAUTION",
+ "summary": "26 paid job(s) from 1 client(s), delivered 88% of funded jobs, no payouts in the last 7 days; see flags.",
+ "onchain": {
+  "jobs_received": 42,
+  "budget_quoted_rate": 86,
+  "jobs_funded": 33,
+  "jobs_delivered": 29,
+  "delivery_rate": 88,
+  "jobs_paid": 26,
+  "paid_rate": 79,
+  "paid_usdc": 0.387,
+  "refunded_usdc": 1.06,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-08-25",
+  "last_job": "2026-08-25",
+  "last_paid": "2026-08-25"
+ },
+ "offerings": [
+  {
+   "name": "honeypot_check",
+   "price_usdc": 0.18,
+   "sla_min": 5
+  },
+  {
+   "name": "pre_trade_risk_check",
+   "price_usdc": 0.35,
+   "sla_min": 5
+  },
+  {
+   "name": "token_security_audit",
+   "price_usdc": 0.9,
+   "sla_min": 5
+  },
+  {
+   "name": "approval_risk_check",
+   "price_usdc": 0.1,
+   "sla_min": 5
+  },
+  {
+   "name": "should_i_buy_token",
+   "price_usdc": 0.18,
+   "sla_min": 5
+  },
+  {
+   "name": "wallet_forensics",
+   "price_usdc": 0.15,
+   "sla_min": 5
+  },
+  {
+   "name": "transaction_simulator",
+   "price_usdc": 0.18,
+   "sla_min": 5
+  },
+  {
+   "name": "contract_risk_check",
+   "price_usdc": 0.18,
+   "sla_min": 5
+  },
+  {
+   "name": "agent_preflight",
+   "price_usdc": 0.45,
+   "sla_min": 5
+  },
+  {
+   "name": "address_risk",
+   "price_usdc": 0.15,
+   "sla_min": 5
+  }
+ ],
+ "flags": [
+  "100% of funded volume comes from one client (0xf2ed97f327fbc92bfe82ddb2ae72765c8f5585b4) — stats may be inflated"
+ ],
+ "index_as_of": "2026-10-03"
+}

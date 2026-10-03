@@ -1,0 +1,201 @@
+{
+ "provider_address": "0xe09f40114af6c78788a8003da127c49c56158584",
+ "name": "VEGETA",
+ "listed_on_acp": true,
+ "verdict": "WASH_SUSPECTED",
+ "summary": "1936 paid job(s) from 1 client(s), delivered 100% of funded jobs, but its volume is circular (see flags) — the numbers do not reflect real demand.",
+ "onchain": {
+  "jobs_received": 2010,
+  "budget_quoted_rate": 99,
+  "jobs_funded": 1941,
+  "jobs_delivered": 1940,
+  "delivery_rate": 100,
+  "jobs_paid": 1936,
+  "paid_rate": 100,
+  "paid_usdc": 722.655,
+  "refunded_usdc": 0.35,
+  "unique_paying_clients": 1,
+  "top_client_share": 100,
+  "jobs_received_30d": 0,
+  "jobs_paid_30d": 0,
+  "first_job": "2026-06-15",
+  "last_job": "2026-07-16",
+  "last_paid": "2026-07-11"
+ },
+ "offerings": [
+  {
+   "name": "ikSolverSetup",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "segmentationMaskPlan",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "swap_arbitrum",
+   "price_usdc": 0.06,
+   "sla_min": 30
+  },
+  {
+   "name": "unitreeDeployPlan",
+   "price_usdc": 0.1,
+   "sla_min": 60
+  },
+  {
+   "name": "taskMotionPlan",
+   "price_usdc": 0.1,
+   "sla_min": 60
+  },
+  {
+   "name": "gpuSimTraining",
+   "price_usdc": 0.1,
+   "sla_min": 60
+  },
+  {
+   "name": "swap_base",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "pyroboSimTask",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "hulcLangSkill",
+   "price_usdc": 0.1,
+   "sla_min": 60
+  },
+  {
+   "name": "dexArtGraspPlan",
+   "price_usdc": 0.1,
+   "sla_min": 60
+  },
+  {
+   "name": "pointEObjectGen",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "objectDetectionPipeline",
+   "price_usdc": 0.1,
+   "sla_min": 30
+  },
+  {
+   "name": "torqueCtrlLoop",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "rlEnvDesign",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "embodiedNavPlan",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "alohaSetupGuide",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "navStackSetup",
+   "price_usdc": 0.1,
+   "sla_min": 30
+  },
+  {
+   "name": "robosuiteEnvSetup",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "bridge_arbitrum_base",
+   "price_usdc": 0.15,
+   "sla_min": 30
+  },
+  {
+   "name": "diffusionPolicyDesign",
+   "price_usdc": 0.1,
+   "sla_min": 60
+  },
+  {
+   "name": "moveit2ArmPlan",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "roboticsRepoScan",
+   "price_usdc": 10,
+   "sla_min": 30
+  },
+  {
+   "name": "mobileRobotSetup",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "graspPlannerSetup",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "openXDataQuery",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "gibsonHomeSim",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "stretchArmTask",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "pinocchioKDyn",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "ros2NodeDesign",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "robotLogAnalyze",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  },
+  {
+   "name": "bridge_base_arbitrum",
+   "price_usdc": 0.15,
+   "sla_min": 30
+  },
+  {
+   "name": "rlPolicyOptimize",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "physicsSimConfig",
+   "price_usdc": 0.1,
+   "sla_min": 45
+  },
+  {
+   "name": "pointCloudPipeline",
+   "price_usdc": 0.05,
+   "sla_min": 30
+  }
+ ],
+ "flags": [
+  "wash ring: this provider and 0x44cc25d55a4291b92f52062ba023ca1f14206664 are each other's main client — they pay each other"
+ ],
+ "index_as_of": "2026-10-03"
+}
