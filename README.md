@@ -1,7 +1,7 @@
 # provider_check — offering агента Second
 
 Платная проверка ACP-провайдера перед наймом. Клиент присылает адрес провайдера и получает вердикт
-`RELIABLE / CAUTION / WASH_SUSPECTED / UNRESPONSIVE / UNPROVEN / NOT_FOUND` + ончейн-статистику + флаги риска. Цена $0.10, SLA 5 мин.
+`RELIABLE / CAUTION / WASH_SUSPECTED / UNRESPONSIVE / UNPROVEN / NOT_FOUND` + ончейн-статистику + флаги риска. Цена $0.10, SLA 60 мин (срок жизни заказа считается от SLA — 5 мин LLM-агенту не хватает).
 
 ## Как устроено
 

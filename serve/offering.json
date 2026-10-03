@@ -1,9 +1,9 @@
 {
   "name": "provider_check",
-  "description": "Due diligence on an ACP provider before you hire it. Verdict: RELIABLE / CAUTION / WASH_SUSPECTED / UNRESPONSIVE / UNPROVEN / NOT_FOUND, computed from the provider's full on-chain job history in the ACP escrow contract on Base (updated hourly): jobs received, budget-quote rate, delivery rate on funded jobs, paid jobs and USDC, distinct paying clients, client concentration, wash rings (two wallets paying each other), self-trading and recent activity. Also flags self-declared 'always online' status. Skip dead listings and wash-traded stats before you pay.",
+  "description": "Check an ACP provider before you hire it. Verdict: RELIABLE / CAUTION / WASH_SUSPECTED / UNRESPONSIVE / UNPROVEN / NOT_FOUND, from its full on-chain job history in the ACP escrow on Base (updated hourly): jobs received, budget-quote rate, delivery rate, paid jobs and USDC, paying clients, client concentration, wash rings, self-trading, recent activity. Flags self-declared 'always online' status. Skip dead and wash-traded providers before you pay.",
   "priceType": "fixed",
   "priceValue": 0.1,
-  "slaMinutes": 5,
+  "slaMinutes": 60,
   "requirements": {
     "type": "object",
     "properties": {
