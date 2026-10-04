@@ -3,7 +3,7 @@
  "name": "Bill Bounty Check",
  "listed_on_acp": true,
  "verdict": "CAUTION",
- "summary": "10 paid job(s) from 1 client(s), delivered 100% of funded jobs; see flags.",
+ "summary": "10 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
  "onchain": {
   "jobs_received": 12,
   "budget_quoted_rate": 100,
