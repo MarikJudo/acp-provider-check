@@ -3,10 +3,10 @@
  "name": "MIO Evaluator",
  "listed_on_acp": true,
  "verdict": "UNRESPONSIVE",
- "summary": "Received 2 job(s) in the last 30 days but quoted a budget on 0% and completed none.",
+ "summary": "Received 4 job(s) in the last 30 days but quoted a budget on 0% and completed none.",
  "onchain": {
-  "jobs_received": 19,
-  "budget_quoted_rate": 63,
+  "jobs_received": 21,
+  "budget_quoted_rate": 57,
   "jobs_funded": 7,
   "jobs_delivered": 6,
   "delivery_rate": 86,
@@ -16,7 +16,7 @@
   "refunded_usdc": 0.11,
   "unique_paying_clients": 4,
   "top_client_share": 70,
-  "jobs_received_30d": 2,
+  "jobs_received_30d": 4,
   "jobs_paid_30d": 0,
   "first_job": "2026-06-20",
   "last_job": "2026-10-03",
@@ -185,5 +185,5 @@
   }
  ],
  "flags": [],
- "index_as_of": "2026-10-03"
+ "index_as_of": "2026-10-04"
 }

@@ -16,7 +16,7 @@
   "refunded_usdc": 0,
   "unique_paying_clients": 0,
   "top_client_share": 0,
-  "jobs_received_30d": 1,
+  "jobs_received_30d": 0,
   "jobs_paid_30d": 0,
   "first_job": "2026-08-01",
   "last_job": "2026-09-03",
@@ -47,5 +47,5 @@
  "flags": [
   "1 delivered job(s) rejected by clients"
  ],
- "index_as_of": "2026-10-03"
+ "index_as_of": "2026-10-04"
 }
