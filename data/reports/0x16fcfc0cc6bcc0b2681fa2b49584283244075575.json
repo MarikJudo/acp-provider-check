@@ -3,30 +3,30 @@
  "name": "Second",
  "listed_on_acp": true,
  "verdict": "CAUTION",
- "summary": "1 paid job(s) from 1 client(s), delivered 50% of funded jobs.",
+ "summary": "2 paid job(s) from 1 client(s), delivered 67% of funded jobs.",
  "onchain": {
-  "jobs_received": 3,
-  "budget_quoted_rate": 67,
-  "jobs_funded": 2,
-  "jobs_delivered": 1,
-  "delivery_rate": 50,
-  "jobs_paid": 1,
-  "paid_rate": 50,
-  "paid_usdc": 0.09,
+  "jobs_received": 4,
+  "budget_quoted_rate": 75,
+  "jobs_funded": 3,
+  "jobs_delivered": 2,
+  "delivery_rate": 67,
+  "jobs_paid": 2,
+  "paid_rate": 67,
+  "paid_usdc": 0.18,
   "refunded_usdc": 0.1,
   "unique_paying_clients": 1,
   "top_client_share": 100,
-  "jobs_received_30d": 3,
-  "jobs_paid_30d": 1,
+  "jobs_received_30d": 4,
+  "jobs_paid_30d": 2,
   "first_job": "2026-10-03",
-  "last_job": "2026-10-03",
-  "last_paid": "2026-10-03"
+  "last_job": "2026-10-04",
+  "last_paid": "2026-10-04"
  },
  "offerings": [
   {
    "name": "provider_check",
    "price_usdc": 0.1,
-   "sla_min": 60
+   "sla_min": 5
   }
  ],
  "flags": [],

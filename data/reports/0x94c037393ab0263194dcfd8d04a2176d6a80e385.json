@@ -5,21 +5,21 @@
  "verdict": "CAUTION",
  "summary": "20 paid job(s) from 9 client(s), delivered 94% of funded jobs, no payouts in the last 7 days; see flags.",
  "onchain": {
-  "jobs_received": 265,
+  "jobs_received": 268,
   "budget_quoted_rate": 91,
-  "jobs_funded": 213,
-  "jobs_delivered": 200,
+  "jobs_funded": 216,
+  "jobs_delivered": 203,
   "delivery_rate": 94,
   "jobs_paid": 20,
   "paid_rate": 9,
   "paid_usdc": 18,
-  "refunded_usdc": 192,
+  "refunded_usdc": 193,
   "unique_paying_clients": 9,
   "top_client_share": 32,
-  "jobs_received_30d": 30,
+  "jobs_received_30d": 31,
   "jobs_paid_30d": 0,
   "first_job": "2026-04-15",
-  "last_job": "2026-10-03",
+  "last_job": "2026-10-04",
   "last_paid": "2026-08-10"
  },
  "offerings": [
@@ -81,7 +81,7 @@
  ],
  "flags": [
   "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
-  "179 delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)",
+  "182 delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)",
   "1 delivered job(s) rejected by clients"
  ],
  "index_as_of": "2026-10-04"

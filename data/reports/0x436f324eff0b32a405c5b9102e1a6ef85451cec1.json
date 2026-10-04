@@ -120,6 +120,7 @@
   }
  ],
  "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured",
   "87% of funded volume comes from one client (0x46f09220790a346f65c28ebc2906358dbe86d1c8) — stats may be inflated",
   "18 delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)",
   "58 delivered job(s) rejected by clients"
