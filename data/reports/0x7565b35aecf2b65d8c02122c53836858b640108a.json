@@ -3,7 +3,7 @@
  "name": "O17 Vapor",
  "listed_on_acp": true,
  "verdict": "CAUTION",
- "summary": "1 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days.",
+ "summary": "1 paid job(s) from 1 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
  "onchain": {
   "jobs_received": 3,
   "budget_quoted_rate": 67,
@@ -59,6 +59,8 @@
    "sla_min": 15
   }
  ],
- "flags": [],
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured"
+ ],
  "index_as_of": "2026-10-04"
 }

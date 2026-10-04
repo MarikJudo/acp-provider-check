@@ -5,7 +5,7 @@
  "verdict": "CAUTION",
  "summary": "9 paid job(s) from 2 client(s), delivered 87% of funded jobs, no payouts in the last 7 days; see flags.",
  "onchain": {
-  "jobs_received": 664,
+  "jobs_received": 665,
   "budget_quoted_rate": 97,
   "jobs_funded": 15,
   "jobs_delivered": 13,
@@ -16,10 +16,10 @@
   "refunded_usdc": 0.06,
   "unique_paying_clients": 2,
   "top_client_share": 92,
-  "jobs_received_30d": 249,
+  "jobs_received_30d": 246,
   "jobs_paid_30d": 0,
   "first_job": "2026-08-01",
-  "last_job": "2026-10-03",
+  "last_job": "2026-10-04",
   "last_paid": "2026-08-23"
  },
  "offerings": [

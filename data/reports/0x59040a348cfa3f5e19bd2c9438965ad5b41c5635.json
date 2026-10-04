@@ -2,8 +2,8 @@
  "provider_address": "0x59040a348cfa3f5e19bd2c9438965ad5b41c5635",
  "name": "Otto AI - Tools Agent",
  "listed_on_acp": true,
- "verdict": "RELIABLE",
- "summary": "116 paid job(s) from 10 client(s), delivered 98% of funded jobs, paid in the last 7 days.",
+ "verdict": "CAUTION",
+ "summary": "116 paid job(s) from 10 client(s), delivered 98% of funded jobs, no payouts in the last 7 days; see flags.",
  "onchain": {
   "jobs_received": 171,
   "budget_quoted_rate": 82,
