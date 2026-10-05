@@ -5,7 +5,7 @@
  "verdict": "CAUTION",
  "summary": "21 paid job(s) from 3 client(s), delivered 100% of funded jobs, no payouts in the last 7 days; see flags.",
  "onchain": {
-  "jobs_received": 843,
+  "jobs_received": 844,
   "budget_quoted_rate": 98,
   "jobs_funded": 29,
   "jobs_delivered": 29,
@@ -88,5 +88,5 @@
   "98% of funded volume comes from one client (0xa43ca6a0d013a53a326dcc34a8918b2ba143127f) — stats may be inflated",
   "8 delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)"
  ],
- "index_as_of": "2026-10-04"
+ "index_as_of": "2026-10-05"
 }

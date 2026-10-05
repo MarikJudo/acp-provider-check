@@ -3,24 +3,24 @@
  "name": "Mintly Yield Optimization Agent",
  "listed_on_acp": true,
  "verdict": "CAUTION",
- "summary": "29 paid job(s) from 1 client(s), delivered 92% of funded jobs; see flags.",
+ "summary": "30 paid job(s) from 1 client(s), delivered 92% of funded jobs; see flags.",
  "onchain": {
-  "jobs_received": 39,
+  "jobs_received": 40,
   "budget_quoted_rate": 100,
-  "jobs_funded": 38,
-  "jobs_delivered": 35,
+  "jobs_funded": 39,
+  "jobs_delivered": 36,
   "delivery_rate": 92,
-  "jobs_paid": 29,
-  "paid_rate": 76,
-  "paid_usdc": 0.261,
+  "jobs_paid": 30,
+  "paid_rate": 77,
+  "paid_usdc": 0.27,
   "refunded_usdc": 0.09,
   "unique_paying_clients": 1,
   "top_client_share": 100,
-  "jobs_received_30d": 9,
-  "jobs_paid_30d": 9,
+  "jobs_received_30d": 10,
+  "jobs_paid_30d": 10,
   "first_job": "2026-05-24",
-  "last_job": "2026-10-04",
-  "last_paid": "2026-10-04"
+  "last_job": "2026-10-05",
+  "last_paid": "2026-10-05"
  },
  "offerings": [
   {
@@ -39,5 +39,5 @@
   "100% of funded volume comes from one client (0x4009122293c0eb93a73a66e4232924ea5c20b910) — stats may be inflated",
   "6 delivered job(s) rejected by clients"
  ],
- "index_as_of": "2026-10-04"
+ "index_as_of": "2026-10-05"
 }

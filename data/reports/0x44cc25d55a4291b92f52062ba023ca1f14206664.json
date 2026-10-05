@@ -193,5 +193,5 @@
   "wash ring: this provider and 0xe09f40114af6c78788a8003da127c49c56158584 are each other's main client — they pay each other",
   "8 delivered job(s) were never accepted by the client and auto-refunded (client-side; typical of looped test/wash buyers)"
  ],
- "index_as_of": "2026-10-04"
+ "index_as_of": "2026-10-05"
 }

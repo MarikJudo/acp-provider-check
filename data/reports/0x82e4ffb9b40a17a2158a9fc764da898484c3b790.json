@@ -29,6 +29,8 @@
    "sla_min": 1440
   }
  ],
- "flags": [],
- "index_as_of": "2026-10-04"
+ "flags": [
+  "lastActiveAt is pinned to the far future — 'always online' status is self-declared, not measured"
+ ],
+ "index_as_of": "2026-10-05"
 }
